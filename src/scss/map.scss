@@ -1,0 +1,134 @@
+.map {
+  position: relative;
+  height: 35.625vw;
+
+  .map-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .marker-big {
+    position: absolute;
+    width: 5.068vw;
+    height: 6.117vw;
+    left: 54.828vw;
+    top: 2.828vw;
+  }
+
+  .just-marker {
+
+    &.one {
+      position: absolute;
+      width: 3.698vw;
+      height: 3.698vw;
+      left: calc(50% - 3.698vw/2 - 26.276vw);
+      top: calc(50% - 3.698vw/2 + 13.62vw);
+    }
+
+    &.two {
+      position: absolute;
+      width: 3.698vw;
+      height: 3.698vw;
+      left: calc(50% - 3.698vw/2 + 43.672vw);
+      top: calc(50% - 3.698vw/2 + 9.141vw);
+
+    }
+  }
+
+
+  .content {
+    position: absolute;
+    top: 9.427vw;
+    left: 12.5vw;
+    width: 24.167vw;
+    height: 16.771vw;
+    background-image: url(../img/bg-adress.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    padding: 1.927vw 0 2.24vw 2.135vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1.563vw;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+
+
+  }
+
+  .addres-blocks {
+    display: flex;
+    gap: 0.156vw;
+    flex-direction: column;
+  }
+
+  .little-text {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.042vw;
+    line-height: 1.302vw;
+    color: #585B79;
+
+    &.time {
+      position: relative;
+      padding-left: 1.563vw;
+
+      &::before {
+        content: "";
+        width: 1.042vw;
+        height: 1.042vw;
+        background-image: url(../img/clock-icon.png);
+        position: absolute;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        left: 0;
+        top: 50%;
+        transform: translate(0, -50%);
+      }
+
+    }
+
+    &.phone {
+      position: relative;
+      padding-left: 1.563vw;
+
+      &::before {
+        content: "";
+        width: 1.042vw;
+        height: 1.042vw;
+        background-image: url(../img/tel-icon.png);
+        position: absolute;
+        background-size: 80%;
+        background-repeat: no-repeat;
+        background-position: center;
+        left: 0;
+        top: 50%;
+        transform: translate(0, -50%);
+
+      }
+
+    }
+
+  }
+
+  .big-text {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.25vw;
+    line-height: 1.563vw;
+    color: #1A1A1A;
+
+    a {
+      color: #1A1A1A;
+
+    }
+  }
+
+}

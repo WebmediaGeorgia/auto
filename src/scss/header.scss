@@ -1,0 +1,239 @@
+.header {
+
+  .header__top {
+    background-image: url(../img/topBG.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 3.438vw;
+  }
+
+  .header__top_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .item_first {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.042vw;
+    line-height: 1.563vw;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+
+  .item_two {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.042vw;
+    line-height: 1.563vw;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .button_three {
+    background: rgba(255, 255, 255, 0.17);
+    box-shadow: 0vw 0.052vw 0.104vw rgba(0, 0, 0, 0.06), 0vw 0.052vw 0.156vw rgba(0, 0, 0, 0.1);
+    border-radius: 0.521vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 17.813vw;
+height: 2.083vw;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 0.938vw;
+    line-height: 1.146vw;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+  }
+
+  .close {
+    position: absolute;
+    width: 1.667vw;
+    height: 1.667vw;
+    left: calc(50% - 1.667vw/2 + 46.823vw);
+    top: calc(50% - 1.667vw/2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img{
+    width: 0.833vw;
+    height: 0.833vw;
+    }
+  }
+
+  .header__down {
+    background: #FFFFFF;
+    border-bottom: 0.052vw solid rgba(0, 0, 0, 0.06);
+    backdrop-filter: blur(0.26vw);
+  }
+
+  .header__down_content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1.615vw 0;
+
+  }
+
+  .header__logo {
+    width: 5.729vw;
+    height: 2.083vw;
+
+
+    img {
+      width: 100%;
+      object-fit: cover;
+      height: 100%;
+    }
+
+  }
+
+
+  .header__nav {
+
+    .ul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 2.083vw;
+      padding: 0 11.25vw 0 3.49vw;
+
+      .li {
+
+        .header_link {
+          font-family: 'Mulish';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 1.042vw;
+          line-height: 1.354vw;
+          color: #1A1A1A;
+          display: flex;
+          height: 1.719vw;
+          align-items: center;
+
+          &.active {
+            font-family: 'Mulish';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 1.042vw;
+            line-height: 1.354vw;
+            color: #1A1A1A;
+            position: relative;
+
+            &::after {
+              content: "";
+              width: 100%;
+              height: 0.104vw;
+              position: absolute;
+              bottom: 0;
+              left: 0;
+
+              background: linear-gradient(95.52deg, #440551 0.7%, #404267 55.29%, #3C7A80 99.34%, #3C7A80 99.34%), #D9D9D9;
+            }
+
+          }
+        }
+
+      }
+    }
+  }
+
+
+
+
+
+
+
+  .header__adress {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.833vw;
+    line-height: 1.354vw;
+    color: #440D54;
+    position: relative;
+    padding-left: 1.302vw;
+    height: 0.885vw;
+    display: flex;
+    align-items: center;
+    margin-right: 4.896vw;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 0.729vw;
+      height: 0.885vw;
+      background-image: url(../img/adressbef.png);
+      background-repeat: no-repeat;
+      background-size: 100%;
+    }
+
+    span {
+      height: 100%;
+      border-bottom: 0.052vw solid #440D54;
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .header__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.417vw 2.005vw 0.521vw 2.005vw;
+    background: #EEC16A;
+    border-radius: 0.417vw;
+
+    a {
+      font-family: 'Mulish';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 0.833vw;
+      line-height: 1.146vw;
+      color: #1A1A1A;
+
+    }
+  }
+
+  .header_counter {
+    width: 2.604vw;
+    height: 1.875vw;
+    position: relative;
+    margin-left: 3.75vw;
+
+    svg {
+      width: 100%;
+      height: 100%;
+    }
+
+    span {
+      position: absolute;
+      width: 0.729vw;
+      height: 0.729vw;
+      left: 0.573vw;
+      top: 0.938vw;
+      font-family: 'Mulish';
+      font-style: normal;
+      font-weight: 900;
+      font-size: 0.573vw;
+      line-height: 0.729vw;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+}

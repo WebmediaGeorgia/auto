@@ -1,0 +1,30 @@
+@import "fonts";
+@import "reset";
+
+
+body {
+  font-family: "Mulish";
+}
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.container {
+  width: 75vw;
+  margin: 0 auto;
+}
+
+@import "header";
+@import "banner-slider";
+@import "auto-models";
+@import "all-auto";
+@import "all-banks";
+@import "best-promo";
+@import "map";
+@import "footer";
+
+

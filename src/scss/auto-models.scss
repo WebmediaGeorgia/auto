@@ -1,0 +1,104 @@
+.auto_models {
+  background: #F1F4F7;
+
+  .content {
+    padding: 4.531vw 0 4.688vw 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .title {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.396vw;
+    line-height: 3.021vw;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1A1A1A;
+
+  }
+
+  .auto_models_items {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 0.781vw;
+    column-gap: 1.25vw;
+    padding: 3.385vw 0 1.563vw 0;
+
+    .auto_models_item {
+      cursor: pointer;
+      width: 11.458vw;
+      height: 2.708vw;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 0.625vw 0 0.885vw;
+      background: #FFFFFF;
+      border: 0.052vw solid #CCDAFF;
+      border-radius: 0.521vw;
+
+      .auto_models_item-title {
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 0.833vw;
+        line-height: 1.354vw;
+        text-transform: uppercase;
+        color: #010334;
+      }
+
+      .auto_models_item-counter {
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 0.938vw;
+        line-height: 1.458vw;
+        text-transform: uppercase;
+        color: #585B79;
+        opacity: 0.6;
+      }
+
+      &.active {
+        background: linear-gradient(95.52deg, #440551 0.7%, #404267 55.29%, #3C7A80 99.34%, #3C7A80 99.34%), #585B79;
+
+        .auto_models_item-title {
+          color: #FFFFFF;
+        }
+
+        .auto_models_item-counter {
+          color: #FFFFFF;
+          opacity: 0.6;
+        }
+      }
+
+
+
+    }
+
+
+  }
+
+  .button {
+    background: #EEC16A;
+    box-shadow: 0vw 0.052vw 0.104vw rgba(0, 0, 0, 0.06), 0vw 0.052vw 0.156vw rgba(0, 0, 0, 0.1);
+    border-radius: 0.521vw;
+    width: 24.167vw;
+    display: flex;
+    gap: 0.417vw;
+    align-items: center;
+    justify-content: center;
+    padding: 0.938vw 0 1.042vw 0;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.042vw;
+    line-height: 1.146vw;
+    text-transform: uppercase;
+    color: #1A1A1A;
+    cursor: pointer;
+  }
+}
