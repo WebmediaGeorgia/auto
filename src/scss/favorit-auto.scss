@@ -1,0 +1,304 @@
+.favorit-page {
+  padding: 4.567vw 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+
+  .all_auto-title {
+    width: 100%;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.396vw;
+    line-height: 3.021vw;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1A1A1A;
+    padding-bottom: 2.083vw;
+    border-bottom: 0.052vw solid #D9D9D9;
+  }
+
+  .all_auto-filter {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    .filter {
+      display: flex;
+      padding: 2.083vw 0;
+      gap: 1.042vw;
+    }
+
+    .sort {
+      font-family: 'Mulish';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 0.938vw;
+      line-height: 1.198vw;
+      color: #010334;
+      padding: 0 2.083vw 0 1.563vw;
+      position: relative;
+      cursor: pointer;
+
+      &::before {
+        content: "";
+        width: 1.042vw;
+        height: 1.042vw;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translate(0, -50%);
+        background-image: url(../img/sort-icon.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+
+      }
+
+    }
+
+    .sort-item {
+      font-family: 'Mulish';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 0.833vw;
+      line-height: 1.354vw;
+      color: #010334;
+      cursor: pointer;
+
+      &.active {
+        font-weight: 700;
+
+      }
+    }
+  }
+
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1.25vw;
+  }
+
+  .auto_item {
+    width: 17.810vw;
+    overflow: hidden;
+    background: #FFFFFF;
+    border: 0.052vw solid #CCDAFF;
+    border-radius: 0.521vw;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: 0.3s ease-in-out;
+
+    &:hover {
+      border: 0.052vw solid #A6BEFF;
+      box-shadow: 0vw 0.104vw 0.677vw rgba(25, 1, 52, 0.15);
+      transition: 0.3s ease-in-out;
+    }
+  }
+
+  .little_slider {
+    height: 12.396vw;
+    position: relative;
+
+    .little_slider-item {
+      width: 17.813vw;
+      height: 12.396vw;
+      position: relative;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    /* Слайдер */
+    .slick-list {
+      overflow: hidden;
+    }
+
+    /* Лента слайдов */
+    .slick-track {
+      display: flex;
+    }
+
+    /* Точки (булиты) */
+    .slick-dots {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.521vw;
+      position: absolute;
+      bottom: 0.885vw;
+      z-index: 10;
+      left: 50%;
+      transform: translate(-50%, 0);
+    }
+
+    .slick-dots li {
+      list-style: none;
+    }
+
+    /* Элемент точки */
+    .slick-dots li button {
+      font-size: 0;
+      width: 1.458vw;
+      height: 0.208vw;
+      background: #D9D9D9;
+      border-radius: 0.208vw;
+      transition: 0.3s ease-in-out;
+
+    }
+
+    /* Активная точка */
+    .slick-dots li.slick-active button {
+      font-size: 0;
+      width: 1.458vw;
+      height: 0.208vw;
+      background: #010334;
+      border-radius: 0.208vw;
+      transition: 0.3s ease-in-out;
+    }
+  }
+
+  .auto_info {
+    margin: 1.042vw;
+    display: flex;
+    flex-direction: column;
+    gap: 0.425vw;
+    position: relative;
+
+    .auto_name {
+      display: flex;
+      flex-direction: column;
+      font-family: 'Mulish';
+      font-style: normal;
+      font-weight: 900;
+      font-size: 0.938vw;
+      line-height: 1.198vw;
+      color: #1A1A1A;
+    }
+
+    .model {
+      font-weight: 700;
+    }
+
+    .auto_description {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      gap: 0.13vw;
+      font-family: 'Mulish';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 0.833vw;
+      line-height: 1.198vw;
+      color: #585B79;
+
+    }
+
+    .price {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
+
+    .new_price {
+      font-family: 'Mulish';
+      font-style: normal;
+      font-weight: 900;
+      font-size: 1.667vw;
+      line-height: 2.083vw;
+      color: #1A1A1A;
+
+    }
+
+    .old_price {
+      font-family: 'Mulish';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.042vw;
+      line-height: 1.302vw;
+      text-decoration-line: line-through;
+      color: #585B79;
+    }
+
+    .button {
+      border: 0.052vw solid #EEC16A;
+      border-radius: 0.521vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.521vw 0;
+      font-family: 'Mulish';
+      font-style: normal;
+      font-weight: 900;
+      font-size: 0.833vw;
+      line-height: 1.25vw;
+      text-transform: uppercase;
+      color: #EEC16A;
+
+
+    }
+
+    .how_much {
+      font-family: 'Mulish';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 0.729vw;
+      line-height: 0.938vw;
+      color: #585B79;
+    }
+
+    .in_stok {
+      font-family: 'Mulish';
+      font-style: normal;
+      font-weight: 900;
+      font-size: 0.729vw;
+      line-height: 0.938vw;
+      color: #4CB050;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+  }
+
+  .wish_icon {
+    width: 1.25vw;
+    height: 1.25vw;
+    position: absolute;
+    top: 0.521vw;
+    right: 0.521vw;
+    cursor: pointer;
+
+    svg {
+      width: 100%;
+    }
+
+  }
+
+  .button_more {
+    width: 24.167vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.938vw 0 1.042vw 0;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.042vw;
+    line-height: 1.146vw;
+    text-transform: uppercase;
+    color: #1A1A1A;
+    background: #EEC16A;
+    box-shadow: 0vw 0.052vw 0.104vw rgba(0, 0, 0, 0.06), 0vw 0.052vw 0.156vw rgba(0, 0, 0, 0.1);
+    border-radius: 0.521vw;
+    cursor: pointer;
+
+  }
+
+}

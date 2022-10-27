@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  @@include('html/head.html',{ "title":"Trade-In" })
+  @@include('html/head.html',{ "title":"Favorit" })
   <body class="wrapper">
     @@include('html/header.html',{})
     <main>
@@ -8,24 +8,21 @@
         <div class="content container">
           <div class="breadscrumbs">
             <a href="#"><img src="./img/home.png" alt="home" /></a>/
-            <span>Trade-in</span>
+            <span>Избранное</span>
           </div>
-          <h1 class="page-name">Trade-in</h1>
+          <h1 class="page-name">Избранное</h1>
           <p class="page-subtitle">
-            Обменяйте свой автомобиль <br />
-            на любой из нашего каталога
+            Список автомобилей. <br />
+            Поможем Вам сделать выбор!
           </p>
-          <a href="#" class="page-button">Выбрать автомобиль</a>
+          <a href="#" class="page-button">Консультация</a>
           <div class="banner-img">
-            <img src="./img/trade-inbg.png" alt="banner" />
+            <img src="./img/favorite-banner.png" alt="banner" />
           </div>
         </div>
       </section>
-      @@include('html/change-auto.html',{})
-      @@include('html/benefits-trade-in.html',{})
-      @@include('html/documents-change-trade-in.html',{})
-     
-
+      
+      @@include('html/favorit-auto.html',{})
       @@include('html/map.html',{})
     </main>
     @@include('html/footer.html',{})
