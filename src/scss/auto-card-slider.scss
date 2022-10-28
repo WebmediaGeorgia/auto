@@ -55,15 +55,26 @@
     display: flex;
     flex-direction: column;
     gap: 1.302vw;
-
+   position: relative;
 
     .auto-card-slider {
       width: 100%;
+   
+      
 
       img {
         width: 100%;
       }
     }
+  /* Слайдер */
+  .slick-list {
+    overflow: hidden;
+  }
+
+  /* Лента слайдов */
+  .slick-track {
+    display: flex;
+  }
 
     .auto-description {
       display: flex;
@@ -127,8 +138,6 @@
     padding: 1.875vw 2.031vw 0 2.24vw;
 
 
-    .auto-order-content {}
-
     .first-pay {
       display: flex;
       flex-direction: column;
@@ -153,6 +162,8 @@
         display: flex;
         align-items: center;
         color: #1A1A1A;
+        gap: 0.521vw;
+        
       }
     }
 
@@ -180,6 +191,7 @@
         display: flex;
         align-items: center;
         color: #1A1A1A;
+        gap: 0.521vw;
       }
     }
 
@@ -206,6 +218,7 @@
         line-height: 2.604vw;
         display: flex;
         align-items: center;
+        gap: 0.521vw;
 
         background: linear-gradient(96.97deg, #440551 -8.52%, #631279 -0.67%, #404267 68.68%, #3C7A80 99.19%, #3C7A80 99.19%);
         -webkit-background-clip: text;
@@ -348,4 +361,74 @@
       }
     }
   }
+
+  .auto-card-slider-little {
+    display: flex;
+
+   .auto-card-slider-item-little {
+    width: 100%;
+    height: 5.365vw;
+    border-radius: 0.521vw;
+    overflow: hidden;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img{
+      width: 8.75vw;
+    object-fit: cover;
+    height: 5.26vw;
+    border-radius: 0.521vw;
+
+    }
+  } 
+   /* Слайдер */
+   .slick-list {
+    overflow: hidden;
+  }
+  .slick-current.slick-active{
+    .auto-card-slider-item-little {
+      background: linear-gradient(95.52deg, #440551 0.7%, #404267 55.29%, #3C7A80 99.34%, #3C7A80 99.34%);
+    }
+
+  }
+
+  /* Лента слайдов */
+  .slick-track {
+    display: flex;
+    gap:1.25vw;
+    justify-content: space-between;
+  }
+    /* Стрелка */
+    .slick-arrow {
+      position: absolute;
+      top: 13.542vw;
+      font-size: 0;
+      z-index: 10;
+      width: 3.125vw;
+      height: 3.125vw;
+      transform: translate(0, -50%);
+    }
+  
+    /* Стрелка влево */
+    .slick-arrow.slick-prev {
+      left: 1.042vw;
+      background: url(../img/Arrow_Left.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+  
+    }
+  
+    /* Стрелка вправо */
+    .slick-arrow.slick-next {
+      right: 1.042vw;
+      background: url(../img/Arrow_Right.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+    }
+  }
+  
 }

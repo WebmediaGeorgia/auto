@@ -18,6 +18,11 @@ body {
   margin: 0 auto;
 }
 
+main {
+  margin-top: 8.802vw;
+  transition: 0.3s ease-in-out;
+}
+
 @import "header";
 @import "banner-slider";
 @import "auto-models";
@@ -33,6 +38,8 @@ body {
 @import "auto-card-slider";
 @import "complectation-auto";
 @import "otzyvy-slider";
+@import "get-autocredit-form";
+@import "calculyator";
 @import "footer";
 
 
