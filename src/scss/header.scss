@@ -14,7 +14,8 @@
     position: relative;
     height: 3.438vw;
     transition: 0.3s ease-in-out;
-    &.close-banner{
+
+    &.close-banner {
       transition: 0.3s ease-in-out;
       height: 0;
       visibility: hidden;
@@ -58,7 +59,7 @@
     justify-content: center;
     align-items: center;
     width: 17.813vw;
-height: 2.083vw;
+    height: 2.083vw;
     font-family: 'Mulish';
     font-style: normal;
     font-weight: 800;
@@ -79,9 +80,10 @@ height: 2.083vw;
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    img{
-    width: 0.833vw;
-    height: 0.833vw;
+
+    img {
+      width: 0.833vw;
+      height: 0.833vw;
     }
   }
 
@@ -134,6 +136,38 @@ height: 2.083vw;
           display: flex;
           height: 1.719vw;
           align-items: center;
+           position: relative;
+           transition: 0.3s ease-in-out;
+           &::after {
+            content: "";
+            transition: 0.3s ease-in-out;
+            width: 100%;
+            height: 0.104vw;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            background: transparent;
+            opacity: 0;
+            visibility: hidden;
+          }
+           &:hover{
+            transition: 0.3s ease-in-out;
+            // font-weight: 800;
+            &::after {
+              content: "";
+              transition: 0.3s ease-in-out;
+              width: 100%;
+              height: 0.104vw;
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              background: linear-gradient(95.52deg, #440551 0.7%, #404267 55.29%, #3C7A80 99.34%, #3C7A80 99.34%), #D9D9D9;
+              opacity: 1;
+            visibility: visible;
+            }
+
+
+           }
 
           &.active {
             font-family: 'Mulish';
@@ -142,7 +176,7 @@ height: 2.083vw;
             font-size: 1.042vw;
             line-height: 1.354vw;
             color: #1A1A1A;
-            position: relative;
+           
 
             &::after {
               content: "";
@@ -151,7 +185,8 @@ height: 2.083vw;
               position: absolute;
               bottom: 0;
               left: 0;
-
+              opacity: 1;
+              visibility: visible;
               background: linear-gradient(95.52deg, #440551 0.7%, #404267 55.29%, #3C7A80 99.34%, #3C7A80 99.34%), #D9D9D9;
             }
 
@@ -181,6 +216,8 @@ height: 2.083vw;
     display: flex;
     align-items: center;
     margin-right: 4.896vw;
+    cursor: pointer;
+    
 
     &::before {
       content: "";
@@ -192,6 +229,7 @@ height: 2.083vw;
       background-image: url(../img/adressbef.png);
       background-repeat: no-repeat;
       background-size: 100%;
+      transition: 0.3s ease-in-out;
     }
 
     span {
@@ -199,6 +237,21 @@ height: 2.083vw;
       border-bottom: 0.052vw solid #440D54;
       display: flex;
       align-items: center;
+      transition: 0.3s ease-in-out;
+   
+    }
+    &:hover{
+      &::before{
+        transition: 0.3s ease-in-out;
+        background-image: url(../img/adressbefyellow.png);
+
+      }
+      span {
+ color: #FBD07C;
+      transition: 0.3s ease-in-out;
+        border-bottom: 0.052vw solid #FBD07C;
+
+      }
     }
   }
 
@@ -209,6 +262,7 @@ height: 2.083vw;
     padding: 0.417vw 2.005vw 0.521vw 2.005vw;
     background: #EEC16A;
     border-radius: 0.417vw;
+    transition: 0.3s ease-in-out;
 
     a {
       font-family: 'Mulish';
@@ -219,6 +273,14 @@ height: 2.083vw;
       color: #1A1A1A;
 
     }
+
+    &:hover {
+      background: #fbd07c;
+      transition: 0.3s ease-in-out;
+      box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.06),
+        0px 1px 3px rgba(0, 0, 0, 0.1);
+      color: #1A1A1A;
+    }
   }
 
   .header_counter {
@@ -226,12 +288,25 @@ height: 2.083vw;
     height: 1.875vw;
     position: relative;
     margin-left: 3.75vw;
+    cursor: pointer;
 
     svg {
       width: 100%;
       height: 100%;
+      path {
+        transition: 0.3s ease-in-out;
+        fill: url(#paint0_linear_501_626);
+      }
     }
+  &:hover {
+    svg {
+      path {
+        fill: #FBD07C;
+        transition: 0.3s ease-in-out;
 
+      }
+    } 
+        }
     span {
       position: absolute;
       width: 0.729vw;
