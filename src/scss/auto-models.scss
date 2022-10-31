@@ -1,5 +1,5 @@
 .auto_models {
-  background: #F1F4F7;
+  background: #f1f4f7;
 
   .content {
     padding: 4.531vw 0 4.688vw 0;
@@ -7,19 +7,17 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
   }
 
   .title {
-    font-family: 'Mulish';
+    font-family: "Mulish";
     font-style: normal;
     font-weight: 900;
     font-size: 2.396vw;
     line-height: 3.021vw;
     text-align: center;
     text-transform: uppercase;
-    color: #1A1A1A;
-
+    color: #1a1a1a;
   }
 
   .auto_models_items {
@@ -37,12 +35,12 @@
       align-items: center;
       justify-content: space-between;
       padding: 0 0.625vw 0 0.885vw;
-      background: #FFFFFF;
-      border: 0.052vw solid #CCDAFF;
+      background: #ffffff;
+      border: 0.052vw solid #ccdaff;
       border-radius: 0.521vw;
 
       .auto_models_item-title {
-        font-family: 'Mulish';
+        font-family: "Mulish";
         font-style: normal;
         font-weight: 700;
         font-size: 0.833vw;
@@ -52,39 +50,42 @@
       }
 
       .auto_models_item-counter {
-        font-family: 'Mulish';
+        font-family: "Mulish";
         font-style: normal;
         font-weight: 500;
         font-size: 0.938vw;
         line-height: 1.458vw;
         text-transform: uppercase;
-        color: #585B79;
+        color: #585b79;
         opacity: 0.6;
       }
 
       &.active {
-        background: linear-gradient(95.52deg, #440551 0.7%, #404267 55.29%, #3C7A80 99.34%, #3C7A80 99.34%), #585B79;
+        background: linear-gradient(
+            95.52deg,
+            #440551 0.7%,
+            #404267 55.29%,
+            #3c7a80 99.34%,
+            #3c7a80 99.34%
+          ),
+          #585b79;
 
         .auto_models_item-title {
-          color: #FFFFFF;
+          color: #ffffff;
         }
 
         .auto_models_item-counter {
-          color: #FFFFFF;
+          color: #ffffff;
           opacity: 0.6;
         }
       }
-
-
-
     }
-
-
   }
 
   .button {
-    background: #EEC16A;
-    box-shadow: 0vw 0.052vw 0.104vw rgba(0, 0, 0, 0.06), 0vw 0.052vw 0.156vw rgba(0, 0, 0, 0.1);
+    background: #eec16a;
+    box-shadow: 0vw 0.052vw 0.104vw rgba(0, 0, 0, 0.06),
+      0vw 0.052vw 0.156vw rgba(0, 0, 0, 0.1);
     border-radius: 0.521vw;
     width: 24.167vw;
     display: flex;
@@ -92,20 +93,76 @@
     align-items: center;
     justify-content: center;
     padding: 0.938vw 0 1.042vw 0;
-    font-family: 'Mulish';
+    font-family: "Mulish";
     font-style: normal;
     font-weight: 800;
     font-size: 1.042vw;
     line-height: 1.146vw;
     text-transform: uppercase;
-    color: #1A1A1A;
+    color: #1a1a1a;
     cursor: pointer;
     transition: 0.3s ease-in-out;
-    &:hover{
-      background: #FBD07C;
+    &:hover {
+      background: #fbd07c;
       transition: 0.3s ease-in-out;
-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.06), 0px 1px 3px rgba(0, 0, 0, 0.1);
+      box-shadow: 0vw 0.13vw 0.26vw rgba(0, 0, 0, 0.06),
+        0vw 0.13vw 0.391vw rgba(0, 0, 0, 0.1);
+    }
+  }
+}
 
+@media only screen and (max-width: 1200px) {
+  .auto_models {
+    .content {
+      padding: 8.203vw 0 9.375vw 0;
+    }
+
+    .title {
+      font-size: 4.688vw;
+      line-height: 5.208vw;
+    }
+
+    .auto_models_items {
+      row-gap: 1.953vw;
+      column-gap: 1.953vw;
+      padding: 4.167vw 0 4.557vw 0;
+
+      .auto_models_item {
+        cursor: pointer;
+        width: 21.484vw;
+        height: 5.859vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 17.004px 0 17.004px;
+        border: 0.13vw solid #ccdaff;
+        border-radius: 1.302vw;
+
+        .auto_models_item-title {
+          font-size: 1.563vw;
+          line-height: 2.604vw;
+        }
+
+        .auto_models_item-counter {
+          font-size: 1.823vw;
+          line-height: 3.646vw;
+        }
+      }
+    }
+
+    .button {
+      box-shadow: 0vw 0.13vw 0.26vw rgba(0, 0, 0, 0.06),
+        0vw 0.13vw 0.391vw rgba(0, 0, 0, 0.1);
+      border-radius: 1.302vw;
+      width: 60.417vw;
+      height: 7.813vw;
+      display: flex;
+      gap: 1.302vw;
+      align-items: center;
+      justify-content: center;
+      padding: 2.344vw 0 2.604vw 0;
+      font-size: 2.604vw;
+      line-height: 2.865vw;
     }
   }
 }

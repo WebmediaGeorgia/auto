@@ -1,9 +1,7 @@
 .header {
-
   position: fixed;
   width: 100%;
   z-index: 1000;
-
 
   .header__top {
     background-image: url(../img/topBG.png);
@@ -19,8 +17,6 @@
       transition: 0.3s ease-in-out;
       height: 0;
       visibility: hidden;
-
-
     }
   }
 
@@ -31,51 +27,51 @@
   }
 
   .item_first {
-    font-family: 'Mulish';
+    font-family: "Mulish";
     font-style: normal;
     font-weight: 900;
     font-size: 1.042vw;
     line-height: 1.563vw;
     text-align: center;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #ffffff;
   }
 
   .item_two {
-    font-family: 'Mulish';
+    font-family: "Mulish";
     font-style: normal;
     font-weight: 900;
     font-size: 1.042vw;
     line-height: 1.563vw;
     text-align: center;
-    color: #FFFFFF;
+    color: #ffffff;
   }
 
   .button_three {
     background: rgba(255, 255, 255, 0.17);
-    box-shadow: 0vw 0.052vw 0.104vw rgba(0, 0, 0, 0.06), 0vw 0.052vw 0.156vw rgba(0, 0, 0, 0.1);
+    box-shadow: 0vw 0.052vw 0.104vw rgba(0, 0, 0, 0.06),
+      0vw 0.052vw 0.156vw rgba(0, 0, 0, 0.1);
     border-radius: 0.521vw;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 17.813vw;
     height: 2.083vw;
-    font-family: 'Mulish';
+    font-family: "Mulish";
     font-style: normal;
     font-weight: 800;
     font-size: 0.938vw;
     line-height: 1.146vw;
     text-transform: uppercase;
-    color: #FFFFFF;
-
+    color: #ffffff;
   }
 
   .close {
     position: absolute;
     width: 1.667vw;
     height: 1.667vw;
-    left: calc(50% - 1.667vw/2 + 46.823vw);
-    top: calc(50% - 1.667vw/2);
+    left: calc(50% - 1.667vw / 2 + 46.823vw);
+    top: calc(50% - 1.667vw / 2);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -88,7 +84,7 @@
   }
 
   .header__down {
-    background: #FFFFFF;
+    background: #ffffff;
     border-bottom: 0.052vw solid rgba(0, 0, 0, 0.06);
     backdrop-filter: blur(0.26vw);
   }
@@ -98,25 +94,20 @@
     align-items: center;
     justify-content: flex-start;
     padding: 1.615vw 0;
-
   }
 
   .header__logo {
     width: 5.729vw;
     height: 2.083vw;
 
-
     img {
       width: 100%;
       object-fit: cover;
       height: 100%;
     }
-
   }
 
-
   .header__nav {
-
     .ul {
       display: flex;
       align-items: center;
@@ -125,20 +116,19 @@
       padding: 0 11.25vw 0 3.49vw;
 
       .li {
-
         .header_link {
-          font-family: 'Mulish';
+          font-family: "Mulish";
           font-style: normal;
           font-weight: 600;
           font-size: 1.042vw;
           line-height: 1.354vw;
-          color: #1A1A1A;
+          color: #1a1a1a;
           display: flex;
           height: 1.719vw;
           align-items: center;
-           position: relative;
-           transition: 0.3s ease-in-out;
-           &::after {
+          position: relative;
+          transition: 0.3s ease-in-out;
+          &::after {
             content: "";
             transition: 0.3s ease-in-out;
             width: 100%;
@@ -150,7 +140,7 @@
             opacity: 0;
             visibility: hidden;
           }
-           &:hover{
+          &:hover {
             transition: 0.3s ease-in-out;
             // font-weight: 800;
             &::after {
@@ -161,22 +151,26 @@
               position: absolute;
               bottom: 0;
               left: 0;
-              background: linear-gradient(95.52deg, #440551 0.7%, #404267 55.29%, #3C7A80 99.34%, #3C7A80 99.34%), #D9D9D9;
+              background: linear-gradient(
+                  95.52deg,
+                  #440551 0.7%,
+                  #404267 55.29%,
+                  #3c7a80 99.34%,
+                  #3c7a80 99.34%
+                ),
+                #d9d9d9;
               opacity: 1;
-            visibility: visible;
+              visibility: visible;
             }
-
-
-           }
+          }
 
           &.active {
-            font-family: 'Mulish';
+            font-family: "Mulish";
             font-style: normal;
             font-weight: 800;
             font-size: 1.042vw;
             line-height: 1.354vw;
-            color: #1A1A1A;
-           
+            color: #1a1a1a;
 
             &::after {
               content: "";
@@ -187,29 +181,28 @@
               left: 0;
               opacity: 1;
               visibility: visible;
-              background: linear-gradient(95.52deg, #440551 0.7%, #404267 55.29%, #3C7A80 99.34%, #3C7A80 99.34%), #D9D9D9;
+              background: linear-gradient(
+                  95.52deg,
+                  #440551 0.7%,
+                  #404267 55.29%,
+                  #3c7a80 99.34%,
+                  #3c7a80 99.34%
+                ),
+                #d9d9d9;
             }
-
           }
         }
-
       }
     }
   }
 
-
-
-
-
-
-
   .header__adress {
-    font-family: 'Mulish';
+    font-family: "Mulish";
     font-style: normal;
     font-weight: 700;
     font-size: 0.833vw;
     line-height: 1.354vw;
-    color: #440D54;
+    color: #440d54;
     position: relative;
     padding-left: 1.302vw;
     height: 0.885vw;
@@ -217,7 +210,6 @@
     align-items: center;
     margin-right: 4.896vw;
     cursor: pointer;
-    
 
     &::before {
       content: "";
@@ -234,23 +226,20 @@
 
     span {
       height: 100%;
-      border-bottom: 0.052vw solid #440D54;
+      border-bottom: 0.052vw solid #440d54;
       display: flex;
       align-items: center;
       transition: 0.3s ease-in-out;
-   
     }
-    &:hover{
-      &::before{
+    &:hover {
+      &::before {
         transition: 0.3s ease-in-out;
         background-image: url(../img/adressbefyellow.png);
-
       }
       span {
- color: #FBD07C;
-      transition: 0.3s ease-in-out;
-        border-bottom: 0.052vw solid #FBD07C;
-
+        color: #fbd07c;
+        transition: 0.3s ease-in-out;
+        border-bottom: 0.052vw solid #fbd07c;
       }
     }
   }
@@ -260,18 +249,17 @@
     align-items: center;
     justify-content: center;
     padding: 0.417vw 2.005vw 0.521vw 2.005vw;
-    background: #EEC16A;
+    background: #eec16a;
     border-radius: 0.417vw;
     transition: 0.3s ease-in-out;
 
     a {
-      font-family: 'Mulish';
+      font-family: "Mulish";
       font-style: normal;
       font-weight: 700;
       font-size: 0.833vw;
       line-height: 1.146vw;
-      color: #1A1A1A;
-
+      color: #1a1a1a;
     }
 
     &:hover {
@@ -279,7 +267,7 @@
       transition: 0.3s ease-in-out;
       box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.06),
         0px 1px 3px rgba(0, 0, 0, 0.1);
-      color: #1A1A1A;
+      color: #1a1a1a;
     }
   }
 
@@ -298,31 +286,159 @@
         fill: url(#paint0_linear_501_626);
       }
     }
-  &:hover {
-    svg {
-      path {
-        fill: #FBD07C;
-        transition: 0.3s ease-in-out;
-
-      }
-    } 
+    &:hover {
+      svg {
+        path {
+          fill: #fbd07c;
+          transition: 0.3s ease-in-out;
         }
+      }
+    }
     span {
       position: absolute;
       width: 0.729vw;
       height: 0.729vw;
       left: 0.573vw;
       top: 0.938vw;
-      font-family: 'Mulish';
+      font-family: "Mulish";
       font-style: normal;
       font-weight: 900;
       font-size: 0.573vw;
       line-height: 0.729vw;
       text-transform: uppercase;
-      color: #FFFFFF;
+      color: #ffffff;
       display: flex;
       justify-content: center;
     }
   }
+  .menu-burger-icon{
+    display: none;
+  }
+}
 
+@media only screen and (max-width: 1200px) {
+  .header {
+    .header__top_content {
+      padding-right: 6.51vw;
+    }
+
+    .header__top {
+      background-image: url(../img/1200/TopLine1200.png);
+      height: 8.594vw;
+    }
+
+    .item_first {
+      font-size: 2.083vw;
+      line-height: 3.125vw;
+      width: 25.26vw;
+    }
+
+    .item_two {
+      font-size: 1.823vw;
+      line-height: 2.604vw;
+      width: 19.141vw;
+    }
+
+    .button_three {
+      border-radius: 1.302vw;
+      width: 31.38vw;
+      height: 5.208vw;
+      font-size: 1.823vw;
+      line-height: 3.125vw;
+    }
+
+    .close {
+      width: 4.167vw;
+      height: 4.167vw;
+      left: calc(50% - 4.167vw / 2 + 44.922vw);
+      top: calc(50% - 4.167vw / 2);
+
+      img {
+        width: 2.083vw;
+        height: 2.083vw;
+      }
+    }
+
+    .header__down {
+      border-bottom: 0.13vw solid rgba(0, 0, 0, 0.06);
+      backdrop-filter: blur(0.651vw);
+    }
+
+    .header__down_content {
+      padding: 3.46vw 0;
+    }
+
+    .header__logo {
+      width: 14.323vw;
+      height: 5.208vw;
+
+      img {
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+      }
+    }
+
+    .header__nav {
+      display: none;
+      //сделать меню планшетное
+    }
+
+    .header__adress {
+      font-size: 2.083vw;
+      line-height: 7.813vw;
+      padding-left: 3.255vw;
+      margin-left: 3.906vw;
+      height: 3.385vw;
+      margin-right: 3.906vw;
+
+      &::before {
+        width: 1.823vw;
+        height: 2.214vw;
+        top: 50%;
+        left: 0;
+        transform: translate(0, -50%);
+      }
+      span {
+        border-bottom: 0.13vw solid #440d54;
+      }
+    }
+
+    .header__button {
+      padding: 1.563vw 0 1.823vw 0;
+      border-radius: 1.042vw;
+      width: 19.792vw;
+
+      a {
+        font-size: 1.563vw;
+        line-height: 2.865vw;
+      }
+    }
+
+    .header_counter {
+      width: 6.51vw;
+      height: 4.688vw;
+      margin-left: 3.906vw;
+
+      span {
+        width: 1.823vw;
+        height: 1.823vw;
+        left: 1.302vw;
+        top: 2.344vw;
+        font-size: 1.432vw;
+        line-height: 1.823vw;
+      }
+    }
+    .menu-burger-icon{
+      display: block;
+    margin-left: 4.557vw;
+    width: 3.125vw;
+    height: 3.125vw;
+    cursor: pointer;
+    img{
+      width: 100%;
+    }
+    }
+  }
+ 
 }

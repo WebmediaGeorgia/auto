@@ -22,6 +22,15 @@ main {
   transition: 0.3s ease-in-out;
 }
 
+@media only screen and (max-width:1200px) {
+  .container {
+    width: 92.188vw;
+  }
+  main {
+    margin-top: 21.892vw;
+  }
+}
+
 @import "header";
 @import "banner-slider";
 @import "auto-models";
@@ -42,4 +51,3 @@ main {
 @import "trade-in-block-main";
 
 @import "footer";
-

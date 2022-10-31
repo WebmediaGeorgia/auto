@@ -1,23 +1,22 @@
 .webp .slider {
-  background-size: cover!important;
-  background-repeat: no-repeat! important;
-.slick-arrow.slick-next {
-    background-size: contain!important;
-    background-repeat: no-repeat! important;
-}
-.slick-arrow.slick-prev{
-  background-size: contain!important;
-  background-repeat: no-repeat! important;
-
-}
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  .slick-arrow.slick-next {
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+  }
+  .slick-arrow.slick-prev {
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+  }
 }
 .slider {
   height: 41.354vw;
   position: relative;
-  background:url(../img/firstBanner.png);
+  background: url(../img/firstBanner.png);
   background-repeat: no-repeat;
-    background-size: 100%;
-    background-position:center;
+  background-size: 100%;
+  background-position: center;
 
   .slider_item {
     width: 100%;
@@ -31,54 +30,53 @@
       top: 51%;
       transform: translate(-50%, -50%);
     }
-
   }
 
   .title_slide {
-    font-family: 'Mulish';
+    font-family: "Mulish";
     font-style: normal;
     font-weight: 1000;
     font-size: 3.333vw;
     line-height: 3.854vw;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #ffffff;
     padding-bottom: 1.615vw;
-
   }
 
   .text_slide {
-    font-family: 'Mulish';
+    font-family: "Mulish";
     font-style: normal;
     font-weight: 400;
     font-size: 2.083vw;
     line-height: 2.604vw;
-    color: #FFFFFF;
+    color: #ffffff;
     width: 30.26vw;
     padding-bottom: 4.167vw;
   }
 
   .button_slide {
-    background: #EEC16A;
-    box-shadow: 0vw 0.052vw 0.104vw rgba(0, 0, 0, 0.06), 0vw 0.052vw 0.156vw rgba(0, 0, 0, 0.1);
+    background: #eec16a;
+    box-shadow: 0vw 0.052vw 0.104vw rgba(0, 0, 0, 0.06),
+      0vw 0.052vw 0.156vw rgba(0, 0, 0, 0.1);
     border-radius: 0.521vw;
     display: flex;
     padding: 0.938vw 1.25vw 1.042vw 1.25vw;
     align-items: center;
     justify-content: center;
-    font-family: 'Mulish';
+    font-family: "Mulish";
     font-style: normal;
     font-weight: 800;
     font-size: 1.042vw;
     line-height: 1.146vw;
     text-transform: uppercase;
-    color: #1A1A1A;
+    color: #1a1a1a;
     width: 17.813vw;
     transition: 0.3s ease-in-out;
-    &:hover{
-      background: #FBD07C;
+    &:hover {
+      background: #fbd07c;
       transition: 0.3s ease-in-out;
-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.06), 0px 1px 3px rgba(0, 0, 0, 0.1);
-
+      box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.06),
+        0px 1px 3px rgba(0, 0, 0, 0.1);
     }
   }
 
@@ -111,21 +109,21 @@ box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.06), 0px 1px 3px rgba(0, 0, 0, 0.1);
   }
 
   .title {
-    font-family: 'Mulish';
+    font-family: "Mulish";
     font-style: normal;
     font-weight: 900;
     font-size: 1.354vw;
     line-height: 1.458vw;
-    color: #1A1A1A;
+    color: #1a1a1a;
   }
 
   .text {
-    font-family: 'Mulish';
+    font-family: "Mulish";
     font-style: normal;
     font-weight: 500;
     font-size: 0.938vw;
     line-height: 1.354vw;
-    color: #1A1A1A;
+    color: #1a1a1a;
   }
 
   .block_two {
@@ -148,8 +146,6 @@ box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.06), 0px 1px 3px rgba(0, 0, 0, 0.1);
     right: 0;
     top: -0.521vw;
   }
-
-
 
   /* Слайдер */
   .slick-list {
@@ -181,14 +177,10 @@ box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.06), 0px 1px 3px rgba(0, 0, 0, 0.1);
     background-size: 3.125vw;
     transition: 0.3s ease-in-out;
 
-    &:hover{
-
+    &:hover {
       background: url(../img/hoverleft.png);
       transition: 0.3s ease-in-out;
-
-
     }
-
   }
 
   /* Стрелка вправо */
@@ -200,12 +192,9 @@ box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.06), 0px 1px 3px rgba(0, 0, 0, 0.1);
     background-size: 3.125vw;
     transition: 0.3s ease-in-out;
 
-    &:hover{
-
+    &:hover {
       background: url(../img/hoverright.png);
       transition: 0.3s ease-in-out;
-
-
     }
   }
 
@@ -233,9 +222,8 @@ box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.06), 0px 1px 3px rgba(0, 0, 0, 0.1);
     height: 0.781vw;
     border-radius: 49.997px;
     transition: 0.3s ease-in-out;
-    background: #FFFFFF;
+    background: #ffffff;
     opacity: 0.3;
-
   }
 
   /* Активная точка */
@@ -245,7 +233,147 @@ box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.06), 0px 1px 3px rgba(0, 0, 0, 0.1);
     height: 0.781vw;
     border-radius: 49.997px;
     transition: 0.3s ease-in-out;
-    background: #FFFFFF;
+    background: #ffffff;
     opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .slider {
+    height: 86.458vw;
+
+    .slider_item {
+      height: 86.458vw;
+      overflow: hidden;
+
+      .banner_content {
+        position: absolute;
+        width: 92.188vw;
+        left: 50%;
+        top: 51%;
+        transform: translate(-50%, -50%);
+      }
+    }
+
+    .title_slide {
+      font-size: 4.688vw;
+      line-height: 5.208vw;
+      padding-bottom: 3.125vw;
+    }
+
+    .text_slide {
+      font-size: 3.125vw;
+      line-height: 3.906vw;
+      width: 41vw;
+      padding-bottom: 4.167vw;
+    }
+
+    .button_slide {
+      background: #eec16a;
+      box-shadow: 0vw 0.13vw 0.26vw rgba(0, 0, 0, 0.06),
+        0vw 0.13vw 0.39vw rgba(0, 0, 0, 0.1);
+      border-radius: 1.302vw;
+      padding: 2.345vw 3.125vw 2.605vw 3.125vw;
+      font-size: 2.083vw;
+      line-height: 2.865vw;
+      width: 45.052vw;
+    }
+
+    .sliders_blocks {
+      gap: 1.953vw;
+      padding-top: 16.536vw;
+    }
+
+    .block {
+      width: 29.427vw;
+      height: 25.781vw;
+      display: flex;
+      flex-direction: column;
+      gap: 1.042vw;
+      padding: 5.99vw 2.995vw 0vw 2.083vw;
+    }
+
+    .block_one {
+      background-image: url(../img/1200/Wordmark12001.png);
+    }
+
+    .content {
+      display: flex;
+      flex-direction: column;
+      gap: 1.042vw;
+    }
+
+    .title {
+      font-size: 2.344vw;
+      line-height: 3.125vw;
+      width: 20.182vw;
+    }
+
+    .text {
+      font-size: 1.823vw;
+      line-height: 2.604vw;
+    }
+
+    .block_two {
+      background-image: url(../img/1200/Wordmark12002.png);
+    }
+
+    .block_three {
+      background-image: url(../img/1200/Wordmark12003.png);
+    }
+
+    .banner {
+      width: 95.313vw;
+      height: 57.943vw;
+      object-fit: cover;
+      position: absolute;
+      right: -26.042vw;
+      top: 2.604vw;
+    }
+
+    /* Слайдер */
+    .slick-list {
+      overflow: hidden;
+    }
+
+    /* Лента слайдов */
+    .slick-track {
+      display: flex;
+    }
+
+    /* Стрелка */
+    .slick-arrow {
+      width: 7.813vw;
+      height: 7.813vw;
+    }
+
+    /* Стрелка влево */
+    .slick-arrow.slick-prev {
+      left: 3.906vw;
+      background-size: 7.813vw;
+    }
+
+    /* Стрелка вправо */
+    .slick-arrow.slick-next {
+      right: 3.906vw;
+      background-size: 7.813vw;
+    }
+    /* Точки (булиты) */
+    .slick-dots {
+      gap: 2.214vw;
+      bottom: 3.906vw;
+    }
+    /* Элемент точки */
+    .slick-dots li button {
+      width: 1.44vw;
+      height: 1.302vw;
+      border-radius: 4.557vw;
+    }
+    /* Активная точка */
+    .slick-dots li.slick-active button {
+      width: 5.143vw;
+      height: 1.302vw;
+      border-radius: 4.557vw;
+    }
   }
 }

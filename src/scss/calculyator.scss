@@ -1,36 +1,35 @@
 .credit-calc-block {
-  background: #F1F4F7;
+  background: #f1f4f7;
   padding: 5.208vw 0;
 
   .content {
-    background: #FFFFFF;
+    background: #ffffff;
     border-radius: 0.521vw;
     padding: 3.646vw 5.104vw;
     display: flex;
     flex-direction: column;
     gap: 1.563vw;
-
   }
 
   .title {
-    font-family: 'Mulish';
+    font-family: "Mulish";
     font-style: normal;
     font-weight: 900;
     font-size: 2.396vw;
     line-height: 3.021vw;
     text-align: center;
     text-transform: uppercase;
-    color: #1A1A1A;
+    color: #1a1a1a;
   }
 
   .name-auto {
-    font-family: 'Mulish';
+    font-family: "Mulish";
     font-style: normal;
     font-weight: 900;
     font-size: 1.354vw;
     line-height: 1.458vw;
     text-align: center;
-    color: #1A1A1A;
+    color: #1a1a1a;
   }
 
   .credit-calc {
@@ -45,7 +44,8 @@
     flex-direction: column;
     gap: 1.563vw;
 
-    .block {}
+    .block {
+    }
 
     .flex-container {
       &.for-range {
@@ -54,7 +54,7 @@
       }
 
       h5 {
-        font-family: 'Mulish';
+        font-family: "Mulish";
         font-style: normal;
         font-weight: 400;
         font-size: 0.833vw;
@@ -64,37 +64,36 @@
       }
 
       .per {
-        font-family: 'Mulish';
+        font-family: "Mulish";
         font-style: normal;
         font-weight: 500;
         font-size: 0.729vw;
         line-height: 120%;
         align-items: center;
-        color: #585B79;
+        color: #585b79;
       }
 
       h6 {
-        font-family: 'Mulish';
+        font-family: "Mulish";
         font-style: normal;
         font-weight: 700;
         font-size: 1.667vw;
         line-height: 120%;
-        color: #1A1A1A;
+        color: #1a1a1a;
         padding-bottom: 0.521vw;
       }
     }
 
     .val-summ {
-      font-family: 'Mulish';
+      font-family: "Mulish";
       font-style: normal;
       font-weight: 800;
       font-size: 2.083vw;
       line-height: 2.604vw;
       display: flex;
       align-items: center;
-      color: #1A1A1A;
+      color: #1a1a1a;
     }
-
   }
 
   .right {
@@ -104,13 +103,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(103.38deg, #671578 -23.88%, #404267 41.9%, #4499A2 91.64%);
+    background: linear-gradient(
+      103.38deg,
+      #671578 -23.88%,
+      #404267 41.9%,
+      #4499a2 91.64%
+    );
 
     .info-pay {
       width: 25.26vw;
       height: 16.563vw;
       border-radius: 0.521vw;
-      background: #FFFFFF;
+      background: #ffffff;
       padding: 2.031vw 0 0 2.031vw;
       display: flex;
       align-items: flex-start;
@@ -124,7 +128,6 @@
       gap: 3.438vw;
       align-items: flex-start;
       justify-content: flex-start;
-
     }
 
     .item {
@@ -134,55 +137,59 @@
     }
 
     .title-range {
-      font-family: 'Mulish';
+      font-family: "Mulish";
       font-style: normal;
       font-weight: 300;
       font-size: 0.833vw;
       line-height: 1.042vw;
       color: #010334;
-
     }
 
     .persent {
-      font-family: 'Mulish';
+      font-family: "Mulish";
       font-style: normal;
       font-weight: 800;
       font-size: 2.083vw;
       line-height: 2.604vw;
       display: flex;
       align-items: center;
-      color: #1A1A1A;
+      color: #1a1a1a;
     }
 
     .summ {
-      font-family: 'Mulish';
+      font-family: "Mulish";
       font-style: normal;
       font-weight: 800;
       font-size: 2.083vw;
       line-height: 2.604vw;
       display: flex;
       align-items: center;
-      color: #1A1A1A;
+      color: #1a1a1a;
     }
 
     .yeahr {
-      font-family: 'Mulish';
+      font-family: "Mulish";
       font-style: normal;
       font-weight: 800;
       font-size: 2.083vw;
       line-height: 2.604vw;
       display: flex;
       align-items: center;
-      color: #1A1A1A;
+      color: #1a1a1a;
     }
 
     .economy {
-      font-family: 'Mulish';
+      font-family: "Mulish";
       font-style: normal;
       font-weight: 700;
       font-size: 1.042vw;
       line-height: 1.563vw;
-      background: linear-gradient(105.42deg, #671578 9.76%, #404267 45.62%, #4499A2 72.73%);
+      background: linear-gradient(
+        105.42deg,
+        #671578 9.76%,
+        #404267 45.62%,
+        #4499a2 72.73%
+      );
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
@@ -195,19 +202,19 @@
     flex-direction: column;
 
     .title-form {
-      font-family: 'Mulish';
+      font-family: "Mulish";
       font-style: normal;
       font-weight: 900;
       font-size: 1.667vw;
       line-height: 2.083vw;
       text-align: center;
-      color: #1A1A1A;
+      color: #1a1a1a;
       padding-top: 1.042vw;
       padding-bottom: 0.885vw;
     }
 
     .subtitle-form {
-      font-family: 'Mulish';
+      font-family: "Mulish";
       font-style: normal;
       font-weight: 400;
       font-size: 1.042vw;
@@ -221,7 +228,6 @@
       display: flex;
       flex-direction: column;
       gap: 1.172vw;
-
     }
 
     .block-input {
@@ -238,30 +244,30 @@
         padding: 0.469vw 1.042vw 0.469vw 2.917vw;
         width: 31.771vw;
         height: 3.125vw;
-        background: #F1F4F7;
+        background: #f1f4f7;
         border-radius: 0.521vw;
         background-image: url(../img/fio.png);
         background-repeat: no-repeat;
         background-position: 1.042vw center;
         background-size: 0.938vw;
         position: relative;
-        font-family: 'Mulish';
+        font-family: "Mulish";
         font-style: normal;
         font-weight: 400;
         font-size: 0.833vw;
         line-height: 1.354vw;
         color: #010334;
         &::placeholder {
-          font-family: 'Mulish';
+          font-family: "Mulish";
           font-style: normal;
           font-weight: 400;
           font-size: 0.833vw;
           line-height: 1.354vw;
-          color: #ABAFBC;
+          color: #abafbc;
           position: absolute;
-          top:50%;
+          top: 50%;
           left: 3vw;
-          transform: translate(0,-50%);
+          transform: translate(0, -50%);
         }
       }
     }
@@ -274,32 +280,31 @@
         padding: 0.469vw 1.042vw 0.469vw 2.917vw;
         width: 31.771vw;
         height: 3.125vw;
-        background: #F1F4F7;
+        background: #f1f4f7;
         border-radius: 0.521vw;
         background-image: url(../img/telinput.png);
         background-repeat: no-repeat;
         background-position: 1.042vw center;
         background-size: 0.938vw;
         position: relative;
-        font-family: 'Mulish';
+        font-family: "Mulish";
         font-style: normal;
         font-weight: 400;
         font-size: 0.833vw;
         line-height: 1.354vw;
         color: #010334;
         &::placeholder {
-          font-family: 'Mulish';
+          font-family: "Mulish";
           font-style: normal;
           font-weight: 400;
           font-size: 0.833vw;
           line-height: 1.354vw;
-          color: #ABAFBC;
+          color: #abafbc;
           position: absolute;
-          top:50%;
+          top: 50%;
           left: 3vw;
-          transform: translate(0,-50%);
+          transform: translate(0, -50%);
         }
-
       }
     }
 
@@ -310,25 +315,25 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background: #EEC16A;
-        box-shadow: 0vw 0.052vw 0.104vw rgba(0, 0, 0, 0.06), 0vw 0.052vw 0.156vw rgba(0, 0, 0, 0.1);
+        background: #eec16a;
+        box-shadow: 0vw 0.052vw 0.104vw rgba(0, 0, 0, 0.06),
+          0vw 0.052vw 0.156vw rgba(0, 0, 0, 0.1);
         border-radius: 0.521vw;
-        font-family: 'Mulish';
+        font-family: "Mulish";
         font-style: normal;
         font-weight: 800;
         font-size: 1.042vw;
         line-height: 1.146vw;
         text-transform: uppercase;
-        color: #1A1A1A;
+        color: #1a1a1a;
         transition: 0.3s ease-in-out;
-        &:hover{
+        &:hover {
           transition: 0.3s ease-in-out;
-          background: #FBD07C;
-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.06), 0px 1px 3px rgba(0, 0, 0, 0.1);
+          background: #fbd07c;
+          box-shadow: 0vw 0.13vw 0.26vw rgba(0, 0, 0, 0.06),
+            0vw 0.13vw 0.391vw rgba(0, 0, 0, 0.1);
         }
       }
-
-
     }
 
     .agree-input {
@@ -339,7 +344,7 @@ box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.06), 0px 1px 3px rgba(0, 0, 0, 0.1);
         display: flex;
         align-items: center;
         gap: 0.938vw;
-        font-family: 'Mulish';
+        font-family: "Mulish";
         font-style: normal;
         font-weight: 400;
         font-size: 0.833vw;
@@ -347,8 +352,7 @@ box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.06), 0px 1px 3px rgba(0, 0, 0, 0.1);
         color: #010334;
 
         span {
-          color: #EEC16A;
-
+          color: #eec16a;
         }
       }
     }
@@ -361,7 +365,7 @@ box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.06), 0px 1px 3px rgba(0, 0, 0, 0.1);
     -moz-appearance: none;
     appearance: none;
     border-radius: 0.521vw;
-    background: #E4E4E4;
+    background: #e4e4e4;
   }
 
   input[type="range"]::-webkit-slider-runnable-track {
@@ -375,8 +379,8 @@ box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.06), 0px 1px 3px rgba(0, 0, 0, 0.1);
     appearance: none;
     width: 1.042vw;
     height: 0.781vw;
-    background: #EEC16A;
-    border: 0.052vw solid #FFFFFF;
+    background: #eec16a;
+    border: 0.052vw solid #ffffff;
     border-radius: 1.25vw;
     cursor: pointer;
     margin-top: -0.365vw;
@@ -400,7 +404,7 @@ box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.06), 0px 1px 3px rgba(0, 0, 0, 0.1);
   }
 
   .checkbox__text:before {
-    content: '';
+    content: "";
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);
@@ -408,32 +412,374 @@ box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.06), 0px 1px 3px rgba(0, 0, 0, 0.1);
     width: 1.042vw;
     height: 1.042vw;
     border-radius: 0.145vw;
-    border: 0.052vw solid #EEC16A;
-    transition: .2s;
+    border: 0.052vw solid #eec16a;
+    transition: 0.2s;
   }
 
   .checkbox__text:after {
-    content: '';
+    content: "";
     position: absolute;
     top: 50%;
     left: 0.521vw;
     transform: translate(-50%, -50%);
     width: 0.521vw;
     height: 0.521vw;
-    background: #EEC16A;
+    background: #eec16a;
     opacity: 0;
     border-radius: 0.083vw;
-    transition: .3s ease-in-out;
+    transition: 0.3s ease-in-out;
   }
 
-  .checkbox input:checked+.checkbox__text:before {
+  .checkbox input:checked + .checkbox__text:before {
     background: transparent;
   }
 
-  .checkbox input:checked+.checkbox__text:after {
+  .checkbox input:checked + .checkbox__text:after {
     opacity: 1;
-    transition: .3s ease-in-out;
+    transition: 0.3s ease-in-out;
   }
+}
 
+@media only screen and (max-width: 1200px) {
+  .credit-calc-block {
+    padding: 9.115vw 0;
 
+    .content {
+      border-radius: 1.302vw;
+      padding: 10.417vw 3.906vw;
+      gap: 3.255vw;
+      width: 100%;
+    }
+    .for-range {
+      padding-top: 1.302vw;
+    }
+
+    .title {
+      font-size: 4.688vw;
+      line-height: 5.208vw;
+    }
+
+    .name-auto {
+      font-size: 3.385vw;
+      line-height: 3.646vw;
+    }
+
+    .credit-calc {
+      gap: 3.906vw;
+      flex-direction: column;
+    }
+
+    .left {
+      width: 92.188vw;
+      gap: 3.908vw;
+
+      .block {
+      }
+
+      .flex-container {
+        h5 {
+          font-family: "Mulish";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 2.083vw;
+          line-height: 2.605vw;
+          color: #010334;
+          padding-bottom: 1.302vw;
+        }
+
+        .per {
+          font-size: 1.823vw;
+          line-height: 120%;
+        }
+
+        h6 {
+          font-size: 4.167vw;
+          padding-bottom: 1.302vw;
+        }
+      }
+
+      .val-summ {
+        font-family: "Mulish";
+        font-style: normal;
+        font-weight: 800;
+        font-size: 5.208vw;
+        line-height: 6.51vw;
+        display: flex;
+        align-items: center;
+        color: #1a1a1a;
+      }
+    }
+
+    .right {
+      width: 92.188vw;
+      height: 42.708vw;
+      border-radius: 1.302vw;
+
+      .info-pay {
+        width: 91.667vw;
+        height: 42.188vw;
+        border-radius: 1.302vw;
+        background: #ffffff;
+        padding: 5.077vw 0 0 5.077vw;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 3.908vw;
+        flex-direction: column;
+      }
+
+      .info-pay-block {
+        width: 100%;
+        gap: 13.021vw;
+        position: relative;
+      }
+
+      .item {
+        width: 29.818vw;
+      }
+
+      .title-range {
+        font-family: "Mulish";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 2.083vw;
+        line-height: 2.605vw;
+        color: #010334;
+      }
+
+      .persent {
+        font-size: 5.208vw;
+        line-height: 6.51vw;
+        display: flex;
+        align-items: center;
+      }
+
+      .summ {
+        font-size: 5.208vw;
+        line-height: 6.51vw;
+        display: flex;
+        align-items: center;
+      }
+
+      .yeahr {
+        font-size: 5.208vw;
+        line-height: 6.51vw;
+        display: flex;
+        align-items: center;
+      }
+
+      .economy {
+        font-weight: 700;
+        font-size: 2.605vw;
+        line-height: 3.908vw;
+        background: linear-gradient(
+          105.42deg,
+          #671578 9.76%,
+          #404267 45.62%,
+          #4499a2 72.73%
+        );
+        left: 42%;
+        transform: translate(50%, 0);
+
+        background: linear-gradient(
+          105.42deg,
+          #671578 9.76%,
+          #404267 45.62%,
+          #4499a2 72.73%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+      }
+    }
+
+    .form-for-credit {
+      display: flex;
+      flex-direction: column;
+
+      .title-form {
+        font-family: "Mulish";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 4.167vw;
+        line-height: 5.208vw;
+        text-align: center;
+        color: #1a1a1a;
+        padding-top: 2.605vw;
+        padding-bottom: 2.212vw;
+      }
+
+      .subtitle-form {
+        font-size: 2.605vw;
+        line-height: 3.908vw;
+        text-align: center;
+        padding-bottom: 4.167vw;
+        align-self: center;
+
+        width: 78.125vw;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 2.93vw;
+      }
+
+      .block-input {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 3.125vw;
+      }
+
+      .input-name {
+        input {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 1.173vw 2.605vw 1.173vw 7.292vw;
+          width: 45.052vw;
+          height: 7.813vw;
+          background: #f1f4f7;
+          border-radius: 1.302vw;
+          background-image: url(../img/fio.png);
+          background-repeat: no-repeat;
+          background-position: 2.605vw center;
+          background-size: 2.345vw;
+          position: relative;
+          font-family: "Mulish";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 2.083vw;
+          line-height: 3.385vw;
+          color: #010334;
+          &::placeholder {
+            font-family: "Mulish";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 2.083vw;
+            line-height: 3.385vw;
+            color: #abafbc;
+            position: absolute;
+            top: 50%;
+            left: 7.5vw;
+            transform: translate(0, -50%);
+          }
+        }
+      }
+
+      .input-tel {
+        input {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          padding: 1.173vw 2.605vw 1.173vw 7.292vw;
+          width: 45.052vw;
+          height: 7.813vw;
+          background: #f1f4f7;
+          border-radius: 1.302vw;
+          background-image: url(../img/telinput.png);
+          background-repeat: no-repeat;
+          background-position: 2.605vw center;
+          background-size: 2.345vw;
+          position: relative;
+          font-family: "Mulish";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 2.083vw;
+          line-height: 3.385vw;
+          color: #010334;
+          &::placeholder {
+            font-family: "Mulish";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 2.083vw;
+            line-height: 3.385vw;
+            color: #abafbc;
+            position: absolute;
+            top: 50%;
+            left: 7.5vw;
+            transform: translate(0, -50%);
+          }
+        }
+      }
+
+      .button-sub {
+        button {
+          width: 45.052vw;
+          height: 8.052vw;
+          box-shadow: 0vw 0.13vw 0.26vw rgba(0, 0, 0, 0.06),
+            0vw 0.13vw 0.39vw rgba(0, 0, 0, 0.1);
+          border-radius: 1.302vw;
+          font-size: 2.605vw;
+          line-height: 2.865vw;
+        }
+      }
+
+      .agree-input {
+        label {
+          gap: 2.345vw;
+          font-size: 2.083vw;
+          line-height: 3.515vw;
+        }
+      }
+    }
+
+    input[type="range"] {
+      width: 100%;
+      height: 0.39vw;
+      border-radius: 1.302vw;
+    }
+
+    input[type="range"]::-webkit-slider-runnable-track {
+      height: 0.39vw;
+      border-radius: 1.302vw;
+    }
+
+    input[type="range"]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 2.605vw;
+      height: 1.952vw;
+      background: #eec16a;
+      border: 0.13vw solid #ffffff;
+      border-radius: 3.125vw;
+      cursor: pointer;
+      margin-top: -0.912vw;
+      margin-left: -0.52vw;
+
+      &:hover {
+        border: 0.26vw solid gray;
+      }
+    }
+
+    .checkbox__text {
+      padding: 0 0 0 4.948vw;
+    }
+
+    .checkbox__text:before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      transform: translate(0, -50%);
+      left: 0;
+      width: 2.605vw;
+      height: 2.605vw;
+      border-radius: 0.362vw;
+      border: 0.13vw solid #eec16a;
+    }
+
+    .checkbox__text:after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 1.302vw;
+      transform: translate(-50%, -50%);
+      width: 1.302vw;
+      height: 1.302vw;
+      border-radius: 0.208vw;
+    }
+  }
 }
