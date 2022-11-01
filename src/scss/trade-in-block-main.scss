@@ -129,7 +129,7 @@
     width: 31.771vw;
 
     select {
-      background: #f1f4f7;
+      background-color: #f1f4f7;
       height: 3.125vw;
       padding: 1.042vw;
       border-radius: 0.521vw;
@@ -141,6 +141,12 @@
       font-size: 0.833vw;
       line-height: 1.354vw;
       color: #abafbc;
+      appearance: none; 
+      overflow: hidden;
+      background-image: url('../img/cheveron-down.png') ; 
+      background-repeat: no-repeat;
+      background-size: 1.042vw;
+      background-position: 95%;
     }
 
     .name {
@@ -334,6 +340,12 @@
         font-size: 2.083vw;
         line-height: 3.385vw;
         color: #abafbc;
+        appearance: none; 
+        overflow: hidden;
+        background-image: url('../img/cheveron-down.png') ; 
+        background-repeat: no-repeat;
+        background-size: 2.604vw;
+        background-position: 95%;
       }
 
       .name {

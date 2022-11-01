@@ -159,7 +159,7 @@
       align-items: center;
       flex-direction: column;
       justify-content: space-between;
-      gap: 1.953vw;
+      gap: 5.953vw;
       margin-bottom: 5.208vw;
   
   
@@ -234,6 +234,8 @@ line-height: 3.125vw;
     .separator-step {
       width: 3.385vw;
       height: 1.433vw;
+      transform: rotate(90deg);
+      margin-top: -2.5vw;
   
       img {
         width: 100%;

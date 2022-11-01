@@ -105,6 +105,12 @@
       font-size: 0.833vw;
       line-height: 1.354vw;
       color: #abafbc;
+      appearance: none; 
+      overflow: hidden;
+      background-image: url('../img/cheveron-down.png') ; 
+      background-repeat: no-repeat;
+      background-size: 1.042vw;
+      background-position: 95%;
     }
     &.block-one {
       display: flex;
@@ -121,6 +127,12 @@
         font-size: 0.833vw;
         line-height: 1.354vw;
         color: #abafbc;
+        appearance: none; 
+        overflow: hidden;
+        background-image: url('../img/cheveron-down.png') ; 
+        background-repeat: no-repeat;
+        background-size: 1.042vw;
+        background-position: 90%;
       }
     }
   }
@@ -269,6 +281,7 @@
   }
 }
 
+
 @media only screen and (max-width: 1200px) {
   .get-autocredit {
     padding: 6.771vw 0 12.5vw 0;
@@ -322,6 +335,12 @@
         font-size: 2.083vw;
         line-height: 3.385vw;
         color: #abafbc;
+        appearance: none; 
+        overflow: hidden;
+        background-image: url('../img/cheveron-down.png') ; 
+        background-repeat: no-repeat;
+        background-size: 2.604vw;
+        background-position: 95%;
       }
       &.block-one {
         display: flex;
@@ -338,6 +357,12 @@
           font-size: 2.083vw;
           line-height: 3.385vw;
           color: #abafbc;
+          appearance: none; 
+          overflow: hidden;
+          background-image: url('../img/cheveron-down.png') ; 
+          background-repeat: no-repeat;
+          background-size: 2.604vw;
+          background-position: 90%;
         }
       }
     }

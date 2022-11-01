@@ -3,11 +3,13 @@
     <div class="footer-top">
       <div class="block_logo">
         <a href="#" class="footer_logo">
-          <img src="./img/footer-logo.png" alt="footer-logo">
+          <img src="./img/footer-logo.png" alt="footer-logo" />
         </a>
         <div class="footer_tel">
           <p class="tel"><a href="tel:+995514009988">+995 514 00 99 88</a></p>
-          <p class="mail"><a href="mailto:testmail@gmal.com">testmail@gmal.com</a></p>
+          <p class="mail">
+            <a href="mailto:testmail@gmal.com">testmail@gmal.com</a>
+          </p>
         </div>
       </div>
       <div class="block_nav">
@@ -21,7 +23,7 @@
         </div>
       </div>
       <div class="block_contacts">
-        <button class="footer_button">ОСТАВИТЬ ЗАЯВКУ</button>
+        <a href="#popup-callback-me" class="footer_button">ОСТАВИТЬ ЗАЯВКУ</a>
         <div class="contacts">
           <p class="adress">г. Тбилиси ул. Мелаани д.16</p>
           <p class="time">Ежедневно с 9:00 до 20:00</p>
@@ -31,65 +33,220 @@
     <div class="footer-down">
       <section class="development">
         <a href="https://webmedia.ge/" target="_blank">
-            <img src="./img/webmedia-logo.svg" alt="Webmedia Georgia">
-            <span>Development WebMedia</span>
+          <img src="./img/webmedia-logo.svg" alt="Webmedia Georgia" />
+          <span>Development WebMedia</span>
         </a>
-    </section> 
-     
+      </section>
     </div>
   </div>
-  
 </footer>
-<div class="popup callback-me">
-  <div class="content-colback">
-    <div class="form-for-credit">
-      <p class="title-form">Заказать обратный звонок</p>
-      <p class="subtitle-form">Заполните и отправьте заявку. Наш кредитный специалист свяжется с вами в ближайшее время.</p>
-      <form action="#">
-        <div class="block-input">
-          <div class="input-name"><input type="text" value="" placeholder="ФИО"></div>
-          <div class="input-tel"><input type="tel" value="" placeholder="Телефон" ></div>
+
+<div class="popup-form popup-callback-me" id="popup-callback-me">
+  <a href="#head" class="popap-area"></a>
+  <div class="popup-body">
+    <div class="popup-content">
+      <a href="#head" class="popup_close"
+        ><img src="./img/popupclose.png" alt="close"
+      /></a>
+      <div class="content-colback">
+        <div class="form-for-credit">
+          <p class="title-form">Заказать обратный звонок</p>
+          <p class="subtitle-form">
+            Заполните и отправьте заявку. Наш кредитный специалист свяжется с
+            вами в ближайшее время.
+          </p>
+          <form action="#">
+            <div class="block-input">
+              <div class="input-name">
+                <input type="text" value="" placeholder="ФИО" />
+              </div>
+              <div class="input-tel">
+                <input type="tel" value="" placeholder="Телефон" />
+              </div>
+            </div>
+            <div class="block-input">
+              <div class="button-sub">
+                <button type="submit">Отправить заявку</button>
+              </div>
+              <div class="agree-input">
+                <label class="checkbox"
+                  ><input
+                    class="yelloy-checkbox"
+                    type="checkbox"
+                    value=" "
+                    checked
+                  />
+                  <p class="checkbox__text">
+                    Я даю согласие на обработку <a href="#popup-user-agrement">персональныx данных</a>
+                  </p></label
+                >
+              </div>
+            </div>
+          </form>
         </div>
-        <div class="block-input">
-          <div class="button-sub"><button type="submit">Отправить заявку</button></div>
-          <div class="agree-input"><label class="checkbox"><input class="yelloy-checkbox" type="checkbox" value=" " checked > <p class="checkbox__text">Я даю согласие на обработку  <span>персональныx данных</span></p></label> </div>
-        </div>
-       
-      </form>
+      </div>
     </div>
   </div>
 </div>
-<div class="popup popup-for-credit">
-  <div class="content-colback">
-    <div class="form-for-credit">
-      <p class="title-form">Оставить заявку на кредит</p>
-      <p class="subtitle-form">Заполните и отправьте заявку. Мы свяжемся с вами в ближайшее время и обговорим все условия</p>
-      <form action="#">
-        <div class="block-input">
-          <div class="input-name"><input type="text" value="" placeholder="Имя"></div>
-          <div class="input-tel"><input type="tel" value="" placeholder="Телефон" ></div>
+<div class="popup-form popup-for-credit" id="popup-for-credit">
+  <a href="#head" class="popap-area"></a>
+  <div class="popup-body">
+    <div class="popup-content">
+      <a href="#head" class="popup_close"
+        ><img src="./img/popupclose.png" alt="close"
+      /></a>
+      <div class="content-colback">
+        <div class="form-for-credit">
+          <p class="title-form">Оставить заявку на кредит</p>
+          <p class="model-for-credit">
+            Hyundai Solaris QX56 5.6 л (405 л.с.), 2011 г.
+          </p>
+          <p class="subtitle-form">
+            Заполните и отправьте заявку. Мы свяжемся с вами в ближайшее время и
+            обговорим все условия
+          </p>
+          <form action="#">
+            <div class="block-input">
+              <div class="input-name">
+                <input type="text" value="" placeholder="ФИО" />
+              </div>
+              <div class="input-tel">
+                <input type="tel" value="" placeholder="Телефон" />
+              </div>
+            </div>
+            <div class="block-input">
+              <div class="button-sub">
+                <button type="submit">Отправить заявку</button>
+              </div>
+              <div class="agree-input">
+                <label class="checkbox"
+                  ><input
+                    class="yelloy-checkbox"
+                    type="checkbox"
+                    value=" "
+                    checked
+                  />
+                  <p class="checkbox__text">
+                    Я даю согласие на обработку <a href="#popup-user-agrement">персональныx данных</a>
+                  </p></label
+                >
+              </div>
+            </div>
+          </form>
         </div>
-        <div class="block-input">
-          <div class="button-sub"><button type="submit">Отправить заявку</button></div>
-          <div class="agree-input"><label class="checkbox"><input class="yelloy-checkbox" type="checkbox" value=" " checked > <p class="checkbox__text">Я даю согласие на обработку  <span>персональныx данных</span></p></label> </div>
-        </div>
-       
-      </form>
+      </div>
     </div>
   </div>
 </div>
-<div class="popup popup-for-successful">
-  <div class="content-colback">
-    <div class="form-for-credit">
-      <p class="title-form">Ваша заявка успешно отправлена</p>
-      <p class="subtitle-form">Мы свяжемся с вами в ближайшее время и обговорим все условия</p>
-      <form action="#">
-        <div class="block-input">
-          <div class="button-sub"><button type="submit">Вернуться на главную</button></div>
-          
+
+<div class="popup-form popup-for-trade-in" id="popup-for-trade-in">
+  <a href="#head" class="popap-area"></a>
+  <div class="popup-body">
+    <div class="popup-content">
+      <a href="#head" class="popup_close"
+        ><img src="./img/1200/burgerclose.png" alt="close"
+      /></a>
+      <div class="content-colback">
+        <div class="form-autocredit">
+          <p class="title-form">Обменять свой авто</p>
+          <p class="model-for-credit">
+            на Hyundai Solaris QX56 5.6 л (405 л.с.), 2011 г.
+          </p>
+
+          <form action="#">
+            <p class="form-text">Ваш автомобиль</p>
+            <p class="subtitle-form">
+              Выберите марку и модель. Мы объективно оценим его рыночную
+              стоимость.
+            </p>
+            <div class="chose-auto-block">
+              <div class="select-input-block block-one">
+                <div class="input-marka">
+                  <input type="text" value="" placeholder="Марка" />
+                </div>
+                <div class="input-model">
+                  <input type="text" value="" placeholder="Модель" />
+                </div>
+              </div>
+
+              <div class="select-input-block block-one">
+                <div class="input-yahre">
+                  <input type="text" value="" placeholder="Год выпуска" />
+                </div>
+                <div class="input-probeg">
+                  <input type="text" value="" placeholder="Пробег" />
+                </div>
+              </div>
+            </div>
+
+            <div class="form-for-credit for-autocredit">
+              <p class="form-text">Контакты</p>
+              <p class="subtitle-form">
+                Укажите пожалуйста свои контакты и мы свяжемся с Вами в
+                ближайшее время
+              </p>
+              <div class="block-input input-for-autocredit">
+                <div class="input-name">
+                  <input type="text" value="" placeholder="ФИО" />
+                </div>
+                <div class="input-tel">
+                  <input type="tel" value="" placeholder="Телефон" />
+                </div>
+              </div>
+              <div class="block-input">
+                <div class="button-sub">
+                  <button type="submit">Отправить заявку</button>
+                </div>
+                <div class="agree-input">
+                  <label class="checkbox"
+                    ><input
+                      class="yelloy-checkbox"
+                      type="checkbox"
+                      value=" "
+                      checked
+                    />
+                    <p class="checkbox__text">
+                      Я даю согласие на обработку
+                      <a href="#popup-user-agrement">персональныx данных</a>
+                    </p></label
+                  >
+                </div>
+              </div>
+            </div>
+          </form>
         </div>
-       
-      </form>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="popup-form popup-user-agrement" id="popup-user-agrement">
+  <a href="#head" class="popap-area"></a>
+  <div class="popup-body">
+    <div class="popup-content-agrement">
+      <a href="#head" class="popup_close"
+        ><img src="./img/1200/burgerclose.png" alt="close"
+      /></a>
+      @@include('user-agrement.html',{})
+    </div>
+  </div>
+</div>
+<div class="popup-form popup-for-successful" id="popup-for-successful">
+  <a href="#head" class="popap-area"></a>
+  <div class="popup-body">
+    <div class="popup-content">
+      <a href="#head" class="popup_close"
+        ><img src="./img/popupclose.png" alt="close"
+      /></a>
+      <div class="content-colback">
+        <div class="form-for-credit">
+          <p class="title-form">Ваша заявка успешно отправлена!</p>
+
+          <p class="subtitle-form">
+            Мы свяжемся с вами в ближайшее время и обговорим все условия
+          </p>
+          <a href="#head" class="back-to-main">Вернуться на главную</a>
+        </div>
+      </div>
     </div>
   </div>
 </div>

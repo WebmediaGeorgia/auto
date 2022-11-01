@@ -393,8 +393,10 @@
       line-height: 1.406vw;
       color: #010334;
 
-      span {
+      a {
         color: #eec16a;
+        text-decoration: none;
+        cursor: pointer;
       }
     }
   }

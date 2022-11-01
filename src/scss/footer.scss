@@ -200,8 +200,8 @@
     &:hover {
       background: #fbd07c;
       transition: 0.3s ease-in-out;
-      box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.06),
-        0px 1px 3px rgba(0, 0, 0, 0.1);
+      box-shadow: 0vw 0.052vw 0.104vw rgba(0, 0, 0, 0.06),
+        0vw 0.052vw 0.156vw rgba(0, 0, 0, 0.1);
       color: #1a1a1a;
     }
   }
@@ -222,11 +222,362 @@
       opacity: 0.5;
     }
   }
-  
 }
-.popup{
-  display: none;
+
+.popup-form {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(0.104vw);
+  top: 0;
+  left: 0;
+  z-index: 12000;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s ease-in-out;
+  &:target {
+    opacity: 1;
+    visibility: visible;
+    transition: 0.3s ease-in-out;
+  }
+
+  .popup-body {
+    min-width: 100%;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .popup-content {
+    width: 39.583vw;
+    height: 30.208vw;
+    background-image: url(../img/popapbg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 0.521vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .popup_close {
+    width: 1.667vw;
+    height: 1.667vw;
+    display: block;
+    position: absolute;
+    top: 1.667vw;
+    right: 1.667vw;
+    cursor: pointer;
+    img {
+      width: 100%;
+    }
+  }
+  .content-colback {
+    width: 30.208vw;
+  }
+
+  .title-form {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 1.25vw;
+    line-height: 1.563vw;
+  }
+  .subtitle-form {
+    font-size: 0.833vw;
+    line-height: 1.198vw;
+    color: #ffffff;
+    width: 21.406vw;
+    align-self: center;
+  }
+  .block-input {
+    flex-direction: column;
+    align-items: center;
+  }
+  .input-name {
+    width: 17.862vw;
+    input {
+      width: 100%;
+    }
+  }
+  .input-tel {
+    width: 17.862vw;
+    input {
+      width: 100%;
+    }
+  }
+  .button-sub {
+    width: 17.862vw;
+    button {
+      width: 100%;
+    }
+  }
+  .agree-input {
+    width: 23.438vw;
+  }
+
+  .checkbox__text {
+    color: #ffffff;
+  }
+  .model-for-credit {
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.354vw;
+    line-height: 1.458vw;
+    text-align: center;
+    color: #ffffff;
+    width: 30.208vw;
+    padding-bottom: 1.302vw;
+  }
+  &.popup-for-successful {
+    &.open {
+      opacity: 1;
+      visibility: visible;
+      transition: 0.3s ease-in-out;
+    }
+    .popup-content {
+      width: 75vw;
+      height: 25.417vw;
+      background-image: url(../img/succsessbg.png);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      border-radius: 0.521vw;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .back-to-main {
+      width: 31.771vw;
+      height: 3.125vw;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      cursor: pointer;
+      font-weight: 800;
+      font-size: 1.042vw;
+      line-height: 1.146vw;
+      text-transform: uppercase;
+      color: #1a1a1a;
+      background: #eec16a;
+      box-shadow: 0vw 0.052vw 0.104vw rgba(0, 0, 0, 0.06),
+        0vw 0.052vw 0.156vw rgba(0, 0, 0, 0.1);
+      border-radius: 0.521vw;
+    }
+  }
 }
+
+.popup-form.popup-for-trade-in {
+  .popup-content {
+    width: 75vw;
+    height: 43.542vw;
+    background: #ffffff;
+    border-radius: 0.521vw;
+  }
+
+  .content-colback {
+    width: 64.792vw;
+  }
+  form {
+    width: 64.792vw;
+  }
+  .form-autocredit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .title-form {
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.396vw;
+    line-height: 3.021vw;
+    color: #1a1a1a;
+    text-align: center;
+    padding-bottom: 1.563vw;
+  }
+  .model-for-credit {
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.354vw;
+    line-height: 1.458vw;
+    width: 32.396vw;
+    color: #1a1a1a;
+    text-align: center;
+  }
+  .form-text {
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.354vw;
+    line-height: 1.458vw;
+    text-align: left;
+    color: #1a1a1a;
+    padding-bottom: 0.938vw;
+  }
+  .subtitle-form {
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.042vw;
+    line-height: 1.563vw;
+    display: flex;
+    align-items: center;
+    color: #010334;
+    width: 46.875vw;
+    align-self: flex-start;
+  }
+
+
+  .input-model,
+  .input-yahre,
+  .input-marka,
+  .input-probeg {
+    input {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 0.469vw 1.042vw;
+      width: 31.875vw;
+      height: 3.125vw;
+      background: #f1f4f7;
+      border-radius: 0.521vw;
+      color: #1a1a1a;
+    }
+  }
+
+  .form-for-credit.for-autocredit {
+    .block-input {
+      flex-direction: row;
+    }
+    .input-for-autocredit {
+      flex-direction: row;
+      height: 3.125vw;
+      margin-top: 0;
+      margin-bottom: 1.719vw;
+    }
+    .input-name {
+      width: 31.771vw;
+      input {
+        width: 31.771vw;
+        height: 3.125vw;
+        background: #f1f4f7;
+        border-radius: 0.521vw;
+        background-image: url(../img/fio.png);
+        background-repeat: no-repeat;
+        background-position: 1.042vw center;
+        background-size: 1.042vw;
+        position: relative;
+      }
+    }
+    .input-tel {
+      width: 31.771vw;
+      input {
+        width: 31.771vw;
+        height: 3.125vw;
+        background: #f1f4f7;
+        border-radius: 0.521vw;
+        background-image: url(../img/telinput.png);
+        background-repeat: no-repeat;
+        background-position: 1.042vw center;
+        background-size: 1.042vw;
+      }
+    }
+    .button-sub {
+      width: 31.771vw;
+      button {
+        width: 31.771vw;
+      }
+    }
+    .checkbox__text {
+      color: #010334;
+    }
+  }
+}
+
+.popup-form.popup-user-agrement {
+
+
+.popup-content-agrement {
+  width: 62.292vw;
+  height: 37.5vw;
+  background: #FFFFFF;
+border-radius: 0.521vw;
+overflow-y: scroll;
+position: relative;
+padding: 3.125vw 2.5vw 1.302vw 2.5vw;
+}
+
+.user-agrement-text {
+  display: flex;
+  flex-direction: column;
+  gap:1.563vw;
+
+}
+.big-title{
+  padding-bottom: 1.563vw;
+  font-family: 'Mulish';
+font-style: normal;
+font-weight: 900;
+font-size: 1.25vw;
+line-height: 1.563vw;
+text-align: center;
+text-transform: uppercase;
+color: #1A1A1A;
+
+}
+.title {
+  font-family: 'Mulish';
+font-style: normal;
+font-weight: 900;
+font-size: 1.042vw;
+line-height: 1.354vw;
+color: #1A1A1A;
+}
+.punkts {
+  font-family: 'Mulish';
+font-style: normal;
+font-weight: 500;
+font-size: 0.938vw;
+line-height: 1.354vw;
+color: #000000;
+
+}
+ul{
+  display: flex;
+  flex-direction: column;
+  gap:0.521vw;
+}
+
+li{
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.938vw;
+  line-height: 1.354vw;
+  color: #000000;
+  padding-left: 0.781vw;
+  position: relative;
+  &::before{
+    content: "";
+    width: 0.417vw;
+    height: 0.417vw;
+    border-radius: 50%;
+    background-color: #eec16a;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0,-50%);
+  }
+
+}
+}
+
+
+
 /* ubuntu-regular - latin */
 @font-face {
   font-family: "Ubuntu";
@@ -288,7 +639,7 @@
     }
   }
 }
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 1200px) {
   .development {
     height: 2.93vw;
     border-top: none;
@@ -308,6 +659,7 @@
     }
   }
 }
+
 @media only screen and (max-width: 600px) {
   .development {
     height: 8vw;
@@ -522,8 +874,8 @@
       &:hover {
         background: #fbd07c;
         transition: 0.3s ease-in-out;
-        box-shadow: 0px 0.399px 0.799px rgba(0, 0, 0, 0.06),
-          0px 0.399px 1.198px rgba(0, 0, 0, 0.1);
+        box-shadow: 0vw 0.021vw 0.042vw rgba(0, 0, 0, 0.06),
+          0vw 0.021vw 0.062vw rgba(0, 0, 0, 0.1);
         color: #1a1a1a;
       }
     }
@@ -544,5 +896,379 @@
         opacity: 0.5;
       }
     }
+  }
+
+  .popup-form {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(0.26vw);
+    top: 0;
+    left: 0;
+    z-index: 12000;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+    &:target {
+      opacity: 1;
+      visibility: visible;
+      transition: 0.3s ease-in-out;
+    }
+  
+    .popup-body {
+      min-width: 100%;
+      min-height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .popup-content {
+      width: 92.188vw;
+      height: 76.563vw;
+      background-image: url(../img/popapbg.png);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      border-radius: 1.302vw;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .popup_close {
+      width: 4.167vw;
+      height: 4.167vw;
+      display: block;
+      position: absolute;
+      top: 4.167vw;
+      right: 4.167vw;
+      cursor: pointer;
+      img {
+        width: 100%;
+      }
+    }
+    .content-colback {
+      width: 75.52vw;
+    }
+  
+    .title-form {
+      text-transform: uppercase;
+      color: #ffffff;
+      font-size: 3.125vw;
+      line-height: 3.908vw;
+    }
+    .subtitle-form {
+      font-size: 2.083vw;
+      line-height: 2.995vw;
+      color: #ffffff;
+      width: 53.515vw;
+      align-self: center;
+    }
+    .block-input {
+      flex-direction: column;
+      align-items: center;
+    }
+    .input-name {
+      width: 44.655vw;
+      input {
+        width: 100%;
+      }
+    }
+    .input-tel {
+      width: 44.655vw;
+      input {
+        width: 100%;
+      }
+    }
+    .button-sub {
+      width: 44.655vw;
+      button {
+        width: 100%;
+      }
+    }
+    .agree-input {
+      width: 58.595vw;
+    }
+  
+    .checkbox__text {
+      color: #ffffff;
+    }
+    .model-for-credit {
+      font-family: "Mulish";
+      font-style: normal;
+      font-weight: 900;
+      font-size: 3.385vw;
+      line-height: 3.645vw;
+      text-align: center;
+      color: #ffffff;
+      width: 75.52vw;
+      padding-bottom: 3.255vw;
+    }
+    &.popup-for-successful {
+      &.open {
+        opacity: 1;
+        visibility: visible;
+        transition: 0.3s ease-in-out;
+      }
+      .popup-content {
+        width: 708px;
+        height: 431px;
+        background-image: url(../img/1200/popupsucc1200.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        border-radius: 1.302vw;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .content-colback{
+        width: 44.661vw;
+      }
+      .subtitle-form{
+        width: 40.661vw;
+
+      }
+      .back-to-main {
+        width: 44.661vw;
+        height: 7.813vw;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        cursor: pointer;
+        font-weight: 800;
+        font-size: 2.605vw;
+        line-height: 2.865vw;
+        text-transform: uppercase;
+        color: #1a1a1a;
+        background: #eec16a;
+        box-shadow: 0vw 0.13vw 0.26vw rgba(0, 0, 0, 0.06),
+          0vw 0.13vw 0.39vw rgba(0, 0, 0, 0.1);
+        border-radius: 1.302vw;
+      }
+    }
+  }
+  
+  .popup-form.popup-for-trade-in {
+    .popup-content {
+      width: 92.188vw;
+      height: 95vh;
+      background: #ffffff;
+      border-radius: 1.302vw;
+      overflow-y: scroll;
+    }
+  
+    .content-colback {
+      width: 92.188vw;
+     
+    }
+    form {
+      width: 92.188vw;
+      padding: 6.51vw;
+    }
+    .form-autocredit {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 180vw;
+      justify-content: flex-end;
+
+      .chose-auto-block{
+        align-items: center;
+
+      }
+      
+    }
+    .title-form {
+      font-family: "Mulish";
+      font-style: normal;
+      font-weight: 900;
+      font-size: 5.99vw;
+      line-height: 7.552vw;
+      color: #1a1a1a;
+      text-align: center;
+      padding-bottom: 3.908vw;
+    }
+    .model-for-credit {
+      font-family: "Mulish";
+      font-style: normal;
+      font-weight: 900;
+      font-size: 3.385vw;
+      line-height: 3.645vw;
+      width: 80.99vw;
+      color: #1a1a1a;
+      text-align: center;
+    }
+    .form-text {
+      font-family: "Mulish";
+      font-style: normal;
+      font-weight: 900;
+      font-size: 3.385vw;
+      line-height: 3.645vw;
+      text-align: left;
+      color: #1a1a1a;
+      padding-bottom: 2.345vw;
+    }
+    .subtitle-form {
+      font-family: "Mulish";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 2.605vw;
+      line-height: 3.908vw;
+      display: flex;
+      align-items: center;
+      text-align: left;
+      color: #010334;
+      width: auto;
+      align-self: flex-start;
+    }
+  
+  
+    .input-model,
+    .input-yahre,
+    .input-marka,
+    .input-probeg {
+      input {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 1.173vw 2.605vw;
+        width: 79.688vw;
+        height: 7.813vw;
+        background: #f1f4f7;
+        border-radius: 1.302vw;
+        color: #1a1a1a;
+      }
+    }
+    .select-input-block.block-one{
+      flex-direction: column;
+    }
+    .form-for-credit.for-autocredit {
+      .block-input {
+        flex-direction: column;
+      }
+     
+      .input-for-autocredit {
+        flex-direction: row;
+        height: 18.229vw;
+        margin-top: 0;
+        margin-bottom: 4.298vw;
+      }
+      .input-name {
+        width: 79.427vw;
+        input {
+          width: 79.427vw;
+          height: 7.813vw;
+          background: #f1f4f7;
+          border-radius: 1.302vw;
+          background-image: url(../img/fio.png);
+          background-repeat: no-repeat;
+          background-position: 2.605vw center;
+          background-size: 2.605vw;
+          position: relative;
+        }
+      }
+      .input-tel {
+        width: 79.427vw;
+        input {
+          width: 79.427vw;
+          height: 7.813vw;
+          background: #f1f4f7;
+          border-radius: 1.302vw;
+          background-image: url(../img/telinput.png);
+          background-repeat: no-repeat;
+          background-position: 2.605vw center;
+          background-size: 2.605vw;
+        }
+      }
+      .button-sub {
+        width: 79.427vw;
+        button {
+          width: 79.427vw;
+        }
+      }
+      .checkbox__text {
+        color: #010334;
+      }
+    }
+  }
+  
+  .popup-form.popup-user-agrement {
+  
+  
+  .popup-content-agrement {
+    width: 92.188vw;
+    height: 95.323vh;
+    background: #FFFFFF;
+  border-radius: 1.302vw;
+  overflow-y: scroll;
+  position: relative;
+  padding: 7.813vw 6.25vw 3.255vw 6.25vw;
+  }
+  
+  .user-agrement-text {
+    display: flex;
+    flex-direction: column;
+    gap:3.908vw;
+  
+  }
+  .big-title{
+    padding-bottom: 3.908vw;
+    font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 3.125vw;
+  line-height: 3.908vw;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1A1A1A;
+  
+  }
+  .title {
+    font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 2.605vw;
+  line-height: 3.385vw;
+  color: #1A1A1A;
+  }
+  .punkts {
+    font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.345vw;
+  line-height: 3.385vw;
+  color: #000000;
+  
+  }
+  ul{
+    display: flex;
+    flex-direction: column;
+    gap:1.302vw;
+  }
+  
+  li{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.345vw;
+    line-height: 3.385vw;
+    color: #000000;
+    padding-left: 1.952vw;
+    position: relative;
+    &::before{
+      content: "";
+      width: 1.042vw;
+      height: 1.042vw;
+      border-radius: 50%;
+      background-color: #eec16a;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translate(0,-50%);
+    }
+  
+  }
   }
 }
