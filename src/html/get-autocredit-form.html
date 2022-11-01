@@ -5,10 +5,148 @@
       <div class="form-autocredit">
         <form action="#">
           <p class="form-text">Выберите автомобиль</p>
-          <p class="form-text">Кредитные условия</p>
-          <p class="form-text">Укажите свои данные</p>
+          <div class="chose-auto-block">
+            <div class="select-input-block block-one">
+              <select name="select-auto" id="select-marka">
+                <option value="" disabled selected hidden>Марка</option>
+                <option value="Kia">
+                  <span class="name">Kia</span><span class="count">12</span>
+                </option>
+                <option value="Mersedes">
+                  <span class="name">Mersedes</span><span class="count">3</span>
+                </option>
+                <option value="BMV">
+                  <span class="name">BMW</span><span class="count">8</span>
+                </option>
+                <option value="Lada">
+                  <span class="name">Lada</span><span class="count">1</span>
+                </option>
+              </select>
+              <select name="select-auto" id="select-model">
+                <option value="" disabled selected hidden>Модель</option>
+                <option value="Kia">
+                  <span class="name">Kia</span><span class="count">12</span>
+                </option>
+                <option value="Mersedes">
+                  <span class="name">Mersedes</span><span class="count">3</span>
+                </option>
+                <option value="BMV">
+                  <span class="name">BMW</span><span class="count">8</span>
+                </option>
+                <option value="Lada">
+                  <span class="name">Lada</span><span class="count">1</span>
+                </option>
+              </select>
+            </div>
+            <div class="select-input-block">
+              <select name="select-auto" id="select-age">
+                <option value="" disabled selected hidden>Поколение</option>
+                <option value="Kia">
+                  <span class="name">Kia</span><span class="count">12</span>
+                </option>
+                <option value="Mersedes">
+                  <span class="name">Mersedes</span><span class="count">3</span>
+                </option>
+                <option value="BMV">
+                  <span class="name">BMW</span><span class="count">8</span>
+                </option>
+                <option value="Lada">
+                  <span class="name">Lada</span><span class="count">1</span>
+                </option>
+              </select>
+            </div>
+            <div class="select-input-block">
+              <select name="select-auto" id="select-auto">
+                <option value="" disabled selected hidden>Объявление</option>
+                <option value="Kia">
+                  <span class="name">Kia</span><span class="count">12</span>
+                </option>
+                <option value="Mersedes">
+                  <span class="name">Mersedes</span><span class="count">3</span>
+                </option>
+                <option value="BMV">
+                  <span class="name">BMW</span><span class="count">8</span>
+                </option>
+                <option value="Lada">
+                  <span class="name">Lada</span><span class="count">1</span>
+                </option>
+              </select>
+            </div>
+          </div>
+          
+          <div class="calc-auto-block">
+            <p class="form-text">Кредитные условия</p>
+              <div class="content">
+               
+                <div class="credit-calc">
+              
+                
+                      <div class="block">
+                         <div class="flex-container">
+                            <h5>Первоначальный взнос</h5>
+                            <h6><span class="val-first-pay">30</span> %</h6>
+                         </div>
+                         <div class="flex-container">
+                            <input
+                               class="range-time"
+                               type="range"
+                               value="0"
+                               step="1"
+                               min="1"
+                               max="100"
+                            />
+                         </div>
+                         <div class="flex-container for-range">
+                            <p class="per">0%</p>
+                            <p class="per">25%</p>
+                            <p class="per">50%</p>
+                            <p class="per">75%</p>
+                            <p class="per">100%</p>
+                         </div>
+                      </div>
+                      <div class="block">
+                         <div class="flex-container">
+                            <h5>Срок автокредита</h5>
+                            <h6><span class="val-credit-time">5</span> лет</h6>
+                         </div>
+                         <div class="flex-container">
+                            <input
+                               class="range-credit-time"
+                               type="range"
+                               value="0"
+                               step="1"
+                               min="6"
+                               max="102"
+                            />
+                         </div>
+                         <div class="flex-container for-range">
+                            <p class="per">6 месяцев</p>
+                            <p class="per">8 лет</p>
+                         </div>
+                      </div>
+                
+                </div>
+                
+              </div>
+           
+          </div>
+         
+          <div class="form-for-credit for-autocredit">
+            <p class="form-text">Укажите свои данные</p>
+              <div class="block-input input-for-autocredit">
+                <div class="input-name"><input type="text" value="" placeholder="ФИО"></div>
+                <div class="input-tel"><input type="tel" value="" placeholder="Телефон" ></div>
+                <div class="input-date"><input type="text" value="" placeholder="Дата рождения"></div>
+                <div class="input-sity"><input type="text" value="" placeholder="Регион регистрации" ></div>
+              </div>
+              <div class="block-input">
+                <div class="button-sub"><button type="submit">Отправить заявку</button></div>
+                <div class="agree-input"><label class="checkbox"><input class="yelloy-checkbox" type="checkbox" value=" " checked > <p class="checkbox__text">Я даю согласие на обработку  <span>персональныx данных</span></p></label> </div>
+              </div>
+          </div>
         </form>
       </div>
+    
       <div class="text-about">
         <p class="text-block">
           Покупка автомобиля – желанное событие в жизни каждого человека,
@@ -38,6 +176,8 @@
           пробегом, выплачивая сумму частями.
         </p>
       </div>
+</div>
+
     </div>
   </div>
 </section>
