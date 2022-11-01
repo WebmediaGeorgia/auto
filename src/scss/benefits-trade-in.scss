@@ -82,3 +82,84 @@
 
   }
 }
+@media only screen and (max-width:1200px){
+  .benefits_trade-in {
+    background: url(../img/1200/bgTrade-in1200.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  
+    .content {
+      padding: 13.281vw 0 13.021vw 0;
+      display: flex;
+      flex-direction: column;
+      gap: 8.855vw;
+    }
+  
+    .title {
+      font-size: 5.99vw;
+line-height: 7.552vw;
+    }
+  
+    .benefits {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 3.906vw;
+    }
+  
+    .benefits-block {
+      display: flex;
+      flex-direction: column;
+      gap: 3.906vw;
+    }
+  
+    .benefits-item {
+      background: #F1F4F7;
+      border-radius: 130.208vw;
+      position: relative;
+      width: 92.188vw;
+      height: 21.875vw;
+      padding: 5.47vw 3.908vw 0vw 25.783vw;
+  
+    }
+  
+    .benefits-item-square {
+      width: 21.875vw;
+      height: 21.875vw;
+      border-radius: 50%;
+      position: absolute;
+      left: 0;
+      top: 0;
+  
+      img {
+        width: 100%;
+      }
+    }
+  
+    .benefits-item-content {
+      display: flex;
+      flex-direction: column;
+      gap: 2.212vw;
+    }
+  
+    .benefits-item-title {
+      font-family: 'Mulish';
+      font-style: normal;
+      font-weight: 900;
+      font-size: 3.125vw;
+      line-height: 3.125vw;
+      color: #1A1A1A;
+    }
+  
+    .benefits-item-text {
+      font-family: 'Mulish';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 2.345vw;
+      line-height: 3.125vw;
+      color: #1A1A1A;
+  
+    }
+  }
+}

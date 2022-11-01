@@ -1,16 +1,15 @@
 .documents-change-trade-in {
-  background: #F1F4F7;
+  background: #f1f4f7;
   padding: 4.635vw 0 4.792vw 0;
 
   .content {
     display: flex;
     flex-direction: column;
     align-items: center;
-
   }
 
   .title {
-    font-family: 'Mulish';
+    font-family: "Mulish";
     font-style: normal;
     font-weight: 900;
     font-size: 2.396vw;
@@ -24,13 +23,11 @@
     display: flex;
     justify-content: space-between;
     gap: 0.99vw;
-
-
   }
 
   .list-item {
     position: relative;
-    background: #FFFFFF;
+    background: #ffffff;
     backdrop-filter: blur(0.26vw);
     border-radius: 1.563vw;
     padding: 4.792vw 1.615vw 0 1.667vw;
@@ -40,7 +37,7 @@
 
   .name-documents {
     text-align: center;
-    font-family: 'Mulish';
+    font-family: "Mulish";
     font-style: normal;
     font-weight: 400;
     font-size: 1.146vw;
@@ -55,15 +52,20 @@
     width: 5.625vw;
     height: 5.625vw;
     transform: translate(-50%, -50%);
-    font-family: 'Mulish';
+    font-family: "Mulish";
     font-style: normal;
     font-weight: 800;
     font-size: 2.292vw;
     line-height: 2.865vw;
     text-transform: uppercase;
-    color: #FFFFFF;
-    background: linear-gradient(110.84deg, #671578 7.97%, #404267 52.12%, #4499A2 85.51%);
-    border: 0.781vw solid #F1F4F7;
+    color: #ffffff;
+    background: linear-gradient(
+      110.84deg,
+      #671578 7.97%,
+      #404267 52.12%,
+      #4499a2 85.51%
+    );
+    border: 0.781vw solid #f1f4f7;
     border-radius: 10.429vw;
     display: flex;
     align-items: center;
@@ -74,10 +76,11 @@
     margin-top: 2.083vw;
     width: 31.771vw;
     height: 3.125vw;
-    background: #EEC16A;
-    box-shadow: 0vw 0.052vw 0.104vw rgba(0, 0, 0, 0.06), 0vw 0.052vw 0.156vw rgba(0, 0, 0, 0.1);
+    background: #eec16a;
+    box-shadow: 0vw 0.052vw 0.104vw rgba(0, 0, 0, 0.06),
+      0vw 0.052vw 0.156vw rgba(0, 0, 0, 0.1);
     border-radius: 0.521vw;
-    font-family: 'Mulish';
+    font-family: "Mulish";
     font-style: normal;
     font-weight: 800;
     font-size: 1.042vw;
@@ -86,6 +89,87 @@
     align-items: center;
     justify-content: center;
     text-transform: uppercase;
-    color: #1A1A1A;
+    color: #1a1a1a;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .documents-change-trade-in {
+    background: #f1f4f7;
+    padding: 11.328vw 0 11.98vw 0;
+
+    .title {
+      font-size: 5.99vw;
+      line-height: 7.552vw;
+      padding-bottom: 13.411vw;
+    }
+
+    .documetns-list {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 8.854vw;
+    }
+
+    .list-item {
+      position: relative;
+      background: #ffffff;
+      backdrop-filter: blur(0.65vw);
+      border-radius: 3.908vw;
+      padding: 10.417vw 0 0 0;
+      height: 21.745vw;
+      width: 92.188vw;
+      display: flex;
+
+      justify-content: center;
+    }
+
+    .name-documents {
+      width: 55.078vw;
+      font-size: 2.865vw;
+      line-height: 3.906vw;
+      br {
+        display: none;
+      }
+    }
+
+    .lisi-item-number {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      width: 14.063vw;
+      height: 14.063vw;
+      transform: translate(-50%, -50%);
+      font-family: "Mulish";
+      font-style: normal;
+      font-weight: 800;
+      font-size: 5.73vw;
+      line-height: 7.163vw;
+      text-transform: uppercase;
+      color: #ffffff;
+      background: linear-gradient(
+        110.84deg,
+        #671578 7.97%,
+        #404267 52.12%,
+        #4499a2 85.51%
+      );
+      border: 1.952vw solid #f1f4f7;
+      border-radius: 26.073vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .button {
+      margin-top: 5.208vw;
+      width: 45.052vw;
+      height: 7.813vw;
+      background: #eec16a;
+      box-shadow: 0vw 0.13vw 0.26vw rgba(0, 0, 0, 0.06),
+        0vw 0.13vw 0.39vw rgba(0, 0, 0, 0.1);
+      border-radius: 1.302vw;
+      font-size: 2.344vw;
+      line-height: 2.865vw;
+    }
   }
 }

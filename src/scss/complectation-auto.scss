@@ -1,24 +1,22 @@
 .complectation-auto {
   padding: 4.531vw 0 3.646vw 0;
 
-
   .content {
     display: flex;
     flex-direction: column;
     gap: 2.135vw;
     align-items: flex-start;
-
   }
 
   .title {
-    font-family: 'Mulish';
+    font-family: "Mulish";
     font-style: normal;
     font-weight: 900;
     font-size: 2.396vw;
     line-height: 3.021vw;
     align-self: center;
     text-transform: uppercase;
-    color: #1A1A1A;
+    color: #1a1a1a;
   }
 
   .complectation-items {
@@ -35,23 +33,23 @@
   .item {
     display: flex;
     flex-direction: column;
-    gap: 0.833vw
+    gap: 0.833vw;
   }
 
   .item-title {
-    font-family: 'Mulish';
+    font-family: "Mulish";
     font-style: normal;
     font-weight: 900;
     font-size: 1.042vw;
     line-height: 1.354vw;
-    color: #1A1A1A;
+    color: #1a1a1a;
   }
 
   .item-list {
     display: flex;
     flex-direction: column;
     gap: 0.417vw;
-    font-family: 'Mulish';
+    font-family: "Mulish";
     font-style: normal;
     font-weight: 500;
     font-size: 0.938vw;
@@ -71,7 +69,74 @@
         top: 50%;
         transform: translate(0, -50%);
         border-radius: 50%;
-        background: linear-gradient(110.84deg, #671578 7.97%, #404267 52.12%, #4499A2 85.51%);
+        background: linear-gradient(
+          110.84deg,
+          #671578 7.97%,
+          #404267 52.12%,
+          #4499a2 85.51%
+        );
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .complectation-auto {
+    padding: 8.203vw 0 9.115vw 0;
+
+    .content {
+      gap: 6.51vw;
+    }
+
+    .title {
+      font-size: 4.167vw;
+      line-height: 5.208vw;
+    }
+
+    .complectation-items {
+      height: 143.229vw;
+      row-gap: 4.167vw;
+      column-gap: 7.813vw;
+    }
+
+    .item {
+      display: flex;
+      flex-direction: column;
+      gap: 2.083vw;
+      width: 39.453vw;
+    }
+
+    .item-title {
+      font-size: 2.605vw;
+      line-height: 3.385vw;
+    }
+
+    .item-list {
+      gap: 1.042vw;
+      font-size: 1.823vw;
+      line-height: 2.865vw;
+
+
+      li {
+        position: relative;
+        padding-left: 2.605vw;
+
+        &::before {
+          content: "";
+          position: absolute;
+          width: 1.173vw;
+          height: 1.173vw;
+          left: 0;
+          top: 50%;
+          transform: translate(0, -50%);
+          border-radius: 50%;
+          background: linear-gradient(
+            110.84deg,
+            #671578 7.97%,
+            #404267 52.12%,
+            #4499a2 85.51%
+          );
+        }
       }
     }
   }

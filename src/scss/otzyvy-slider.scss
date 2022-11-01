@@ -1,29 +1,27 @@
 .webp .otzyvy {
-
-.slick-arrow.slick-next {
-    background-size: contain!important;
-    background-repeat: no-repeat! important;
-}
-.slick-arrow.slick-prev{
-  background-size: contain!important;
-  background-repeat: no-repeat! important;
-
-}
+  .slick-arrow.slick-next {
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+  }
+  .slick-arrow.slick-prev {
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+  }
 }
 .otzyvy {
   padding: 4.688vw 0 4.479vw 0;
-  background: #F1F4F7;
+  background: #f1f4f7;
   position: relative;
- 
+
   .title {
-    font-family: 'Mulish';
+    font-family: "Mulish";
     font-style: normal;
     font-weight: 900;
     font-size: 2.396vw;
     line-height: 3.021vw;
     text-align: center;
     text-transform: uppercase;
-    color: #1A1A1A;
+    color: #1a1a1a;
     padding-bottom: 3.281vw;
   }
 
@@ -41,50 +39,52 @@
     width: 17.213vw;
     height: 18.646vw;
     border-radius: 1.042vw;
-    background: linear-gradient(103.38deg, #671578 -23.88%, #404267 41.9%, #4499A2 91.64%);
+    background: linear-gradient(
+      103.38deg,
+      #671578 -23.88%,
+      #404267 41.9%,
+      #4499a2 91.64%
+    );
   }
 
   .item-content {
     width: 17.08vw;
     height: 18.542vw;
-    background: #FFFFFF;
+    background: #ffffff;
     backdrop-filter: blur(0.26vw);
     border-radius: 1.042vw;
     padding: 1.927vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
   }
 
   .otzyv-title {
-    font-family: 'Mulish';
+    font-family: "Mulish";
     font-style: normal;
     font-weight: 900;
     font-size: 1.25vw;
     line-height: 1.25vw;
-    color: #1A1A1A;
+    color: #1a1a1a;
     padding-bottom: 1.042vw;
   }
 
   .otzyv-text {
-    font-family: 'Mulish';
+    font-family: "Mulish";
     font-style: normal;
     font-weight: 500;
     font-size: 0.833vw;
     line-height: 1.25vw;
-    color: #1A1A1A;
+    color: #1a1a1a;
   }
 
   .otzyv-autor {
-    font-family: 'Mulish';
+    font-family: "Mulish";
     font-style: normal;
     font-weight: 900;
     font-size: 0.833vw;
     line-height: 1.25vw;
-    color: #585B79;
-
-
+    color: #585b79;
   }
 
   /* Слайдер */
@@ -115,7 +115,6 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-
   }
 
   /* Стрелка вправо */
@@ -152,9 +151,8 @@
     height: 0.781vw;
     border-radius: 2.604vw;
     transition: 0.3s ease-in-out;
-    background: #585B79;
+    background: #585b79;
     opacity: 0.3;
-
   }
 
   /* Активная точка */
@@ -164,7 +162,121 @@
     height: 0.781vw;
     border-radius: 2.604vw;
     transition: 0.3s ease-in-out;
-    background: #585B79;
+    background: #585b79;
     opacity: 1;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .otzyvy {
+    padding: 10.156vw 0 12.891vw 0;
+
+    .title {
+      font-size: 4.688vw;
+      line-height: 5.208vw;
+      padding-bottom: 8.202vw;
+    }
+
+    .slider-otzyvy-item {
+      display: flex !important;
+      gap: 2.083vw;
+      justify-content: space-between;
+      padding: 0 0.39vw;
+      flex-wrap: wrap;
+    }
+
+    .item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 44.271vw;
+      height: 46.615vw;
+      border-radius: 2.605vw;
+      background: linear-gradient(
+        103.38deg,
+        #671578 -23.88%,
+        #404267 41.9%,
+        #4499a2 91.64%
+      );
+    }
+
+    .item-content {
+      width: 43.75vw;
+      height: 46.095vw;
+      background: #ffffff;
+      backdrop-filter: blur(0.65vw);
+      border-radius: 2.605vw;
+      padding: 4.817vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .otzyv-title {
+      font-family: "Mulish";
+      font-style: normal;
+      font-weight: 900;
+      font-size: 3.125vw;
+      line-height: 3.125vw;
+      color: #1a1a1a;
+      padding-bottom: 2.605vw;
+    }
+
+    .otzyv-text {
+      font-family: "Mulish";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 2.083vw;
+      line-height: 3.125vw;
+      color: #1a1a1a;
+    }
+
+    .otzyv-autor {
+      font-family: "Mulish";
+      font-style: normal;
+      font-weight: 900;
+      font-size: 2.083vw;
+      line-height: 3.125vw;
+      color: #585b79;
+    }
+
+    /* Слайдер */
+    .slick-list {
+      overflow: hidden;
+    }
+
+    /* Лента слайдов */
+    .slick-track {
+      display: flex;
+    }
+
+    /* Стрелка */
+    .slick-arrow {
+      display: none !important;
+    }
+
+    /* Точки (булиты) */
+    .slick-dots {
+      gap: 2.344vw;
+      bottom: 5.859vw;
+      filter: drop-shadow(0vw 0.52vw 2.605vw rgba(0, 0, 0, 0.2));
+    }
+
+    .slick-dots li {
+      list-style: none;
+    }
+
+    /* Элемент точки */
+    .slick-dots li button {
+      width: 1.44vw;
+      height: 1.302vw;
+      border-radius: 4.557vw;
+    }
+
+    /* Активная точка */
+    .slick-dots li.slick-active button {
+      width: 5.143vw;
+      height: 1.302vw;
+      border-radius: 4.557vw;
+    }
   }
 }

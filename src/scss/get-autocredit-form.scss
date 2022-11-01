@@ -90,3 +90,41 @@
   }
 
 }
+
+@media only screen and (max-width:1200px){
+  .get-autocredit {
+    padding: 6.771vw 0 12.5vw 0;
+    background: #F1F4F7;
+  
+  
+    .content {
+      display: flex;
+      gap: 0vw;
+    }
+  
+    .title {
+      font-size: 4.688vw;
+      line-height: 5.208vw;
+      padding-bottom: 12.109vw;
+  
+    }
+  
+    .form-autocredit {
+      width: 92.188vw;
+    }
+  
+    .form-text {
+      font-family: 'Mulish';
+      font-style: normal;
+      font-weight: 900;
+      font-size: 3.385vw;
+      line-height: 3.645vw;
+      color: #1A1A1A;
+    }
+    .text-about{
+      display: none;
+    }
+    
+  
+  }
+}

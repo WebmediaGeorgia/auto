@@ -352,7 +352,7 @@
     }
   
     .all_auto-filter {
-      gap: 8.333vw;
+      gap: 14.333vw;
   
       .filter_auto {
         display: flex;
@@ -429,6 +429,8 @@
       align-items: flex-start;
       justify-content: flex-start;
       gap: 3.125vw;
+      height: 156.25vw;
+      overflow: hidden;
     }
   
     .auto_item {
@@ -633,7 +635,7 @@
     }
   
     .button_more {
-      width: 60.417vw;
+      width: 45.052vw;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -641,7 +643,7 @@
       font-family: "Mulish";
       font-style: normal;
       font-weight: 800;
-      font-size: 2.605vw;
+      font-size: 2.344vw;
       line-height: 2.865vw;
       text-transform: uppercase;
       color: #1a1a1a;

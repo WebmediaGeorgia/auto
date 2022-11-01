@@ -1,27 +1,29 @@
 .best-promo {
-  background: linear-gradient(95.52deg,
+  background: linear-gradient(
+      95.52deg,
       #440551 0.7%,
       #404267 55.29%,
       #3c7a80 99.34%,
-      #3c7a80 99.34%),
+      #3c7a80 99.34%
+    ),
     #ffffff !important;
-    height: 48.438vw;
+  height: 48.438vw;
 
   .title {
     padding-bottom: 2.604vw;
     padding-top: 3.167vw;
-    font-family: 'Mulish';
+    font-family: "Mulish";
     font-style: normal;
     font-weight: 900;
     font-size: 2.396vw;
     line-height: 3.021vw;
     text-align: center;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #ffffff;
   }
   .slick-dots {
     bottom: 4.802vw;
-}
+  }
 
   .content {
     display: flex;
@@ -47,7 +49,6 @@
       box-shadow: 0vw 0.104vw 0.677vw rgba(25, 1, 52, 0.15);
       transition: 0.3s ease-in-out;
     }
-  
   }
 
   .little_slider {
@@ -189,14 +190,14 @@
       text-transform: uppercase;
       color: #eec16a;
       cursor: pointer;
-    transition: 0.3s ease-in-out;
-    &:hover {
-      background: #fbd07c;
       transition: 0.3s ease-in-out;
-      box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.06),
-        0px 1px 3px rgba(0, 0, 0, 0.1);
-        color: #1A1A1A;
-    }
+      &:hover {
+        background: #fbd07c;
+        transition: 0.3s ease-in-out;
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.06),
+          0px 1px 3px rgba(0, 0, 0, 0.1);
+        color: #1a1a1a;
+      }
     }
 
     .how_much {
@@ -231,6 +232,253 @@
 
     svg {
       width: 100%;
+    }
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .best-promo {
+    background: linear-gradient(
+        95.52deg,
+        #440551 0.7%,
+        #404267 55.29%,
+        #3c7a80 99.34%,
+        #3c7a80 99.34%
+      ),
+      #ffffff !important;
+    height: 192.578vw;
+
+    .title {
+      padding-bottom: 3.906vw;
+      padding-top: 10.417vw;
+      font-size: 5.99vw;
+      line-height: 7.552vw;
+      text-align: center;
+      text-transform: uppercase;
+      color: #ffffff;
+      width: 100%;
+      align-self: center;
+      text-align: center;
+    }
+    .slider_item {
+      height: 175.781vw;
+    }
+    .slick-dots {
+      bottom: 7.813vw;
+    }
+    .slick-arrow {
+      display: none!important;
+    }
+
+    .content {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      gap: 2.083vw;
+    }
+
+    .auto_item {
+      width: 44.533vw;
+      height: 76.823vw;
+      overflow: hidden;
+      background: #ffffff;
+      border: 0.13vw solid #ccdaff;
+      border-radius: 1.302vw;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      transition: 0.3s ease-in-out;
+
+      &:hover {
+        border: 0.13vw solid #a6beff;
+        box-shadow: 0vw 0.26vw 1.692vw rgba(25, 1, 52, 0.15);
+        transition: 0.3s ease-in-out;
+      }
+    }
+
+    .little_slider {
+      height: 30.99vw;
+      position: relative;
+
+      .little_slider-item {
+        width: 44.533vw;
+        height: 30.99vw;
+        position: relative;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      /* Слайдер */
+      .slick-list {
+        overflow: hidden;
+      }
+
+      /* Лента слайдов */
+      .slick-track {
+        display: flex;
+      }
+
+      /* Точки (булиты) */
+      .slick-dots {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1.302vw;
+        position: absolute;
+        bottom: 2.212vw;
+        z-index: 10;
+        left: 50%;
+        transform: translate(-50%, 0);
+      }
+
+      .slick-dots li {
+        list-style: none;
+      }
+
+      /* Элемент точки */
+      .slick-dots li button {
+        font-size: 0;
+        width: 3.645vw;
+        height: 0.52vw;
+        background: #d9d9d9;
+        border-radius: 0.52vw;
+        transition: 0.3s ease-in-out;
+      }
+
+      /* Активная точка */
+      .slick-dots li.slick-active button {
+        font-size: 0;
+        width: 3.645vw;
+        height: 0.52vw;
+        background: #010334;
+        border-radius: 0.52vw;
+        transition: 0.3s ease-in-out;
+      }
+    }
+
+    .auto_info {
+      margin: 2.605vw;
+      display: flex;
+      flex-direction: column;
+      gap: 1.063vw;
+      position: relative;
+
+      .auto_name {
+        display: flex;
+        flex-direction: column;
+        font-family: "Mulish";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 2.345vw;
+        line-height: 2.995vw;
+        color: #1a1a1a;
+      }
+
+      .model {
+        font-weight: 700;
+      }
+
+      .auto_description {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 0.325vw;
+        font-family: "Mulish";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.083vw;
+        line-height: 2.995vw;
+        color: #585b79;
+      }
+
+      .price {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+      }
+
+      .new_price {
+        font-family: "Mulish";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 4.167vw;
+        line-height: 5.208vw;
+        color: #1a1a1a;
+      }
+
+      .old_price {
+        font-family: "Mulish";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.605vw;
+        line-height: 3.255vw;
+        text-decoration-line: line-through;
+        color: #585b79;
+      }
+
+      .button {
+        border: 0.13vw solid #eec16a;
+        border-radius: 1.302vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1.302vw 0;
+        font-family: "Mulish";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 2.083vw;
+        line-height: 3.125vw;
+        text-transform: uppercase;
+        color: #eec16a;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+        &:hover {
+          background: #fbd07c;
+          transition: 0.3s ease-in-out;
+          box-shadow: 0px 0.399px 0.799px rgba(0, 0, 0, 0.06),
+            0px 0.399px 1.198px rgba(0, 0, 0, 0.1);
+          color: #1a1a1a;
+        }
+      }
+
+      .how_much {
+        font-family: "Mulish";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.823vw;
+        line-height: 2.345vw;
+        color: #585b79;
+      }
+
+      .in_stok {
+        font-family: "Mulish";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 1.823vw;
+        line-height: 2.345vw;
+        color: #4cb050;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+    }
+
+    .wish_icon {
+      width: 3.125vw;
+      height: 3.125vw;
+      position: absolute;
+      top: 1.302vw;
+      right: 1.302vw;
+      cursor: pointer;
+
+      svg {
+        width: 100%;
+      }
     }
   }
 }

@@ -265,8 +265,8 @@
     &:hover {
       background: #fbd07c;
       transition: 0.3s ease-in-out;
-      box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.06),
-        0px 1px 3px rgba(0, 0, 0, 0.1);
+      box-shadow: 0vw 0.13vw 0.26vw rgba(0, 0, 0, 0.06),
+        0vw 0.13vw 0.391vw rgba(0, 0, 0, 0.1);
       color: #1a1a1a;
     }
   }
@@ -311,7 +311,10 @@
       justify-content: center;
     }
   }
-  .menu-burger-icon{
+  .menu-burger-icon {
+    display: none;
+  }
+  .burger-menu {
     display: none;
   }
 }
@@ -429,16 +432,163 @@
         line-height: 1.823vw;
       }
     }
-    .menu-burger-icon{
+    .menu-burger-icon {
       display: block;
-    margin-left: 4.557vw;
-    width: 3.125vw;
-    height: 3.125vw;
-    cursor: pointer;
-    img{
-      width: 100%;
+      margin-left: 4.557vw;
+      width: 3.125vw;
+      height: 3.125vw;
+      cursor: pointer;
+      img {
+        width: 100%;
+      }
     }
+
+    .burger-menu {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100vh;
+      width: 100%;
+      overflow-y: scroll;
+      background: rgba(0, 0, 0, 0.6);
+      backdrop-filter: blur(0.26vw);
+      z-index: 11000;
+      transform: translate(100%,0);
+      transition: 0.3s ease-in-out;
+      &.active{
+        transform: translate(0,0);
+      transition: 0.3s ease-in-out;
+      }
+    }
+    .wrapper {
+      height: 147.526vw;
+      display: flex;
+      align-items: flex-end;
+      position: relative;
+    }
+    .burger-close {
+      position: absolute;
+      right: 1.693vw;
+      top: 1.823vw;
+      cursor: pointer;
+      width: 4.167vw;
+      height: 4.167vw;
+    }
+
+    .right-part {
+      width: 53.776vw;
+      background: #ffffff;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 6.51vw 0;
+    }
+    .burger-logo {
+      width: 14.323vw;
+      height: 5.208vw;
+      margin-bottom: 21.745vw;
+      img {
+        width: 100%;
+      }
+    }
+    .burger-nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 5.208vw;
+      margin-bottom: 28.776vw;
+      a {
+        cursor: pointer;
+        font-family: "Mulish";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 2.604vw;
+        line-height: 3.385vw;
+        color: #1a1a1a;
+      }
+    }
+    .burger-contacts {
+      display: flex;
+      flex-direction: column;
+      gap: 0.651vw;
+      align-items: center;
+      border-bottom: 0.13vw solid #363636;
+      padding-bottom: 1.823vw;
+      width: 100%;
+
+      .tel {
+        font-family: "Mulish";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 2.344vw;
+        line-height: 3.385vw;
+        color: #010334;
+        position: relative;
+        padding-left: 3.646vw;
+        &::before {
+          content: "";
+          width: 2.344vw;
+          height: 2.344vw;
+          background: url(../img/1200/phone-burger.png);
+          background-size: 100%;
+          background-repeat: no-repeat;
+          position: absolute;
+          left: 0;
+          top: 50%;
+          transform: translate(0, -50%);
+        }
+      }
+      .mail {
+        font-family: "Mulish";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.344vw;
+        line-height: 3.385vw;
+        color: #010334;
+        position: relative;
+        padding-left: 3.646vw;
+        &::before {
+          content: "";
+          width: 2.474vw;
+          height: 1.953vw;
+          background: url(../img/1200/mail-burger.png);
+          background-size: 100%;
+          background-repeat: no-repeat;
+          position: absolute;
+          left: 0;
+          top: 50%;
+          transform: translate(0, -50%);
+        }
+      }
+    }
+    .button-form {
+      .title-form {
+        font-family: "Mulish";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 2.604vw;
+        line-height: 3.255vw;
+        text-align: center;
+        color: #1a1a1a;
+        padding-top: 6.25vw;
+        padding-bottom: 3.906vw;
+      }
+      .block-input {
+        gap: 1.953vw;
+      }
+      .button-sub {
+        font-size: 2.083vw;
+        line-height: 2.865vw;
+      }
+      .agree-input {
+        width: 36.589vw;
+      }
+      .checkbox__text {
+        text-align: center;
+      }
     }
   }
- 
 }
