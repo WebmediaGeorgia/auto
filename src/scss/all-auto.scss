@@ -107,8 +107,8 @@
       &:hover {
         background: #fbd07c;
         transition: 0.3s ease-in-out;
-        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.06),
-          0px 1px 3px rgba(0, 0, 0, 0.1);
+        box-shadow: 0vw 0.052vw 0.104vw rgba(0, 0, 0, 0.06),
+          0vw 0.052vw 0.156vw rgba(0, 0, 0, 0.1);
       }
     }
   }
@@ -344,8 +344,8 @@
     &:hover {
       background: #fbd07c;
       transition: 0.3s ease-in-out;
-      box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.06),
-        0px 1px 3px rgba(0, 0, 0, 0.1);
+      box-shadow: 0vw 0.052vw 0.104vw rgba(0, 0, 0, 0.06),
+        0vw 0.052vw 0.156vw rgba(0, 0, 0, 0.1);
     }
   }
 }
@@ -405,9 +405,9 @@
       }
 
       .reset_filters {
-        bottom: -39.997px;
-        font-size: 20.006px;
-        line-height: 30.013px;
+        bottom: -5.208vw;
+        font-size: 2.605vw;
+        line-height: 3.908vw;
       }
 
       .button_filter {
@@ -432,8 +432,8 @@
         &:hover {
           background: #fbd07c;
           transition: 0.3s ease-in-out;
-          box-shadow: 0px 0.399px 0.799px rgba(0, 0, 0, 0.06),
-            0px 0.399px 1.198px rgba(0, 0, 0, 0.1);
+          box-shadow: 0vw 0.052vw 0.104vw rgba(0, 0, 0, 0.06),
+            0vw 0.052vw 0.156vw rgba(0, 0, 0, 0.1);
         }
       }
     }
@@ -760,9 +760,9 @@
       }
 
       .reset_filters {
-        bottom: -19.53px;
-        font-size: 9.769px;
-        line-height: 14.655px;
+        bottom: -5.208vw;
+        font-size: 2.605vw;
+        line-height: 3.908vw;
       }
 
       .button_filter {
@@ -787,15 +787,15 @@
         &:hover {
           background: #fbd07c;
           transition: 0.3s ease-in-out;
-          box-shadow: 0px 0.195px 0.39px rgba(0, 0, 0, 0.06),
-            0px 0.195px 0.585px rgba(0, 0, 0, 0.1);
+          box-shadow: 0vw 0.052vw 0.104vw rgba(0, 0, 0, 0.06),
+            0vw 0.052vw 0.156vw rgba(0, 0, 0, 0.1);
         }
       }
     }
 
     .content {
       gap: 5.333vw;
-      height: 645.333vw;
+      height: 551vw;
     }
 
     .auto_item {
@@ -817,16 +817,18 @@
     }
 
     .little_slider {
-      height: 63.467vw;
+      height: 46.133vw;
       position: relative;
 
       .little_slider-item {
         width: 91.203vw;
-        height: 63.467vw;
+        height: 46.133vw;
         position: relative;
 
         img {
           width: 100%;
+          height: 100%;
+          object-fit: cover;
         }
       }
 
@@ -891,8 +893,8 @@
         font-family: "Mulish";
         font-style: normal;
         font-weight: 900;
-        font-size: 4.803vw;
-        line-height: 6.134vw;
+        font-size: 4.267vw;
+        line-height: 5.333vw;
         color: #1a1a1a;
       }
 
@@ -909,8 +911,8 @@
         font-family: "Mulish";
         font-style: normal;
         font-weight: 400;
-        font-size: 4.266vw;
-        line-height: 6.134vw;
+        font-size: 3.733vw;
+        line-height: 6.133vw;
         color: #585b79;
       }
 
@@ -925,8 +927,8 @@
         font-family: "Mulish";
         font-style: normal;
         font-weight: 900;
-        font-size: 8.534vw;
-        line-height: 10.666vw;
+        font-size: 6.4vw;
+        line-height: 8vw;
         color: #1a1a1a;
       }
 
@@ -934,8 +936,8 @@
         font-family: "Mulish";
         font-style: normal;
         font-weight: 400;
-        font-size: 5.335vw;
-        line-height: 6.666vw;
+        font-size: 4.267vw;
+        line-height: 5.333vw;
         text-decoration-line: line-through;
         color: #585b79;
       }

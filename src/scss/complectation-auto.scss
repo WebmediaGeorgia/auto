@@ -43,6 +43,9 @@
     font-size: 1.042vw;
     line-height: 1.354vw;
     color: #1a1a1a;
+    img{
+      display: none;
+    }
   }
 
   .item-list {
@@ -127,6 +130,103 @@
           width: 1.173vw;
           height: 1.173vw;
           left: 0;
+          top: 50%;
+          transform: translate(0, -50%);
+          border-radius: 50%;
+          background: linear-gradient(
+            110.84deg,
+            #671578 7.97%,
+            #404267 52.12%,
+            #4499a2 85.51%
+          );
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 600px) {
+  .complectation-auto {
+    padding: 11.466vw 0 18.667vw 0;
+
+    .content {
+      gap: 9.333vw;
+      align-items: center;
+    }
+
+    .title {
+      font-size: 8vw;
+line-height: 10.133vw;
+    }
+
+    .complectation-items {
+      flex-wrap: nowrap;
+      height: auto;
+      row-gap: 4vw;
+      column-gap: 4vw;
+    }
+
+    .item {
+      display: flex;
+      flex-direction: column;
+      gap: 0vw;
+      width: 91.467vw;
+      border: 0.267vw solid #ABAFBC;
+      border-radius: 1.6vw;
+      padding: 8vw 2.667vw 2.667vw 8vw;
+    }
+
+    .item-title {
+      font-size: 4.8vw;
+      line-height: 5.867vw;
+      position: relative;
+      img{
+        display: inline;
+        width: 6.4vw;
+    height: 6.4vw;
+    position: absolute;
+    right: 5.333vw;
+    top: 0%;
+    transform: translate(0,-50%);
+    cursor: pointer;
+    transform: rotate(0deg);
+    transition: 0.3s ease-in-out;
+    &.active{
+      transform: rotate(180deg);
+      transition: 0.3s ease-in-out;
+      
+    }
+      }
+    }
+
+    .item-list {
+      gap: 1.333vw;
+      font-size: 3.733vw;
+      line-height: 5.867vw;
+      overflow: hidden;
+    opacity: 0;
+    height: 0;
+    transition: 0.3s ease-in-out;
+    padding-top: 4vw;
+    &.active{
+      overflow: visible;
+    opacity: 1;
+    height: auto;
+    transition: 0.3s ease-in-out;
+    }
+
+
+      li {
+        position: relative;
+        padding-left: 1.335vw;
+        font-size: 3.733vw;
+line-height: 5.867vw;
+
+        &::before {
+          content: "";
+          position: absolute;
+          width: 2.402vw;
+          height: 2.402vw;
+          left: -4vw;
           top: 50%;
           transform: translate(0, -50%);
           border-radius: 50%;

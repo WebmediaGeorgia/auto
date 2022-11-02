@@ -903,6 +903,11 @@
       height: 78.667vw;
       border-radius: 2.666vw;
       margin-top: -2.666vw;
+      &.info-pay-right{
+        width: 91.467vw;
+height: 60.8vw;
+
+      }
 
       .info-pay {
         width: 90.401vw;
@@ -915,6 +920,12 @@
         justify-content: flex-start;
         gap: 5.337vw;
         flex-direction: column;
+
+        &.info-pay-kard{
+          width: 90.4vw;
+height: 59.733vw;
+
+        }
       }
 
       .info-pay-block {

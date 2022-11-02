@@ -173,3 +173,84 @@
     }
   }
 }
+@media only screen and (max-width: 600px) {
+  .documents-change-trade-in {
+    background: #f1f4f7;
+    padding: 11.2vw 0 21.333vw 0;
+
+    .title {
+      font-size: 8vw;
+      line-height: 10.133vw;
+      padding-bottom: 14.667vw;
+      text-align: center;
+    }
+
+    .documetns-list {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 18.4vw;
+    }
+
+    .list-item {
+      position: relative;
+      background: #ffffff;
+      backdrop-filter: blur(1.331vw);
+      border-radius: 5.333vw;
+      padding: 18.667vw 0 0 0;
+      width: 91.467vw;
+      height: 42.667vw;
+      display: flex;
+
+      justify-content: center;
+    }
+
+    .name-documents {
+      width: 69.867vw;
+      font-size: 5.333vw;
+      line-height: 7.467vw;
+      br {
+        display: none;
+      }
+    }
+
+    .lisi-item-number {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      width: 28.801vw;
+      height: 28.801vw;
+      transform: translate(-50%, -50%);
+      font-family: "Mulish";
+      font-style: normal;
+      font-weight: 800;
+      font-size: 8.533vw;
+      line-height: 10.667vw;
+      text-transform: uppercase;
+      color: #ffffff;
+      background: linear-gradient(
+        110.84deg,
+        #671578 7.97%,
+        #404267 52.12%,
+        #4499a2 85.51%
+      );
+      border: 3.998vw solid #f1f4f7;
+      border-radius: 53.398vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .button {
+      margin-top: 10.666vw;
+      width: 91.467vw;
+      height: 13.333vw;
+      background: #eec16a;
+      box-shadow: 0vw 0.266vw 0.533vw rgba(0, 0, 0, 0.06),
+        0vw 0.266vw 0.799vw rgba(0, 0, 0, 0.1);
+      border-radius: 2.666vw;
+      font-size: 4.267vw;
+      line-height: 5.867vw;
+    }
+  }
+}

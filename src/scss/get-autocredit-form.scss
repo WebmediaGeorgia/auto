@@ -86,6 +86,10 @@
 }
 
 .form-autocredit {
+  .form-text-600,
+  .form-subtitle600 {
+    display: none;
+  }
   .chose-auto-block {
     padding-top: 1.667vw;
     display: flex;
@@ -105,9 +109,9 @@
       font-size: 0.833vw;
       line-height: 1.354vw;
       color: #abafbc;
-      appearance: none; 
+      appearance: none;
       overflow: hidden;
-      background-image: url('../img/cheveron-down.png') ; 
+      background-image: url("../img/cheveron-down.png");
       background-repeat: no-repeat;
       background-size: 1.042vw;
       background-position: 95%;
@@ -127,9 +131,9 @@
         font-size: 0.833vw;
         line-height: 1.354vw;
         color: #abafbc;
-        appearance: none; 
+        appearance: none;
         overflow: hidden;
-        background-image: url('../img/cheveron-down.png') ; 
+        background-image: url("../img/cheveron-down.png");
         background-repeat: no-repeat;
         background-size: 1.042vw;
         background-position: 90%;
@@ -156,7 +160,7 @@
     .block-input {
       display: flex;
       flex-direction: column;
-      &.input-for-autocredit{
+      &.input-for-autocredit {
         flex-wrap: wrap;
         height: 7.813vw;
         row-gap: 0.521vw;
@@ -181,17 +185,17 @@
         width: 17.813vw;
         height: 3.125vw;
         padding-left: 1.042vw;
-      font-family: "Mulish";
-      font-style: normal;
-      font-weight: 400;
-      font-size: 0.833vw;
-      line-height: 1.354vw;
-      color: #abafbc;
+        font-family: "Mulish";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.833vw;
+        line-height: 1.354vw;
+        color: #abafbc;
       }
     }
 
     .button-sub {
-      button{
+      button {
         width: 36.875vw;
       }
     }
@@ -281,7 +285,6 @@
   }
 }
 
-
 @media only screen and (max-width: 1200px) {
   .get-autocredit {
     padding: 6.771vw 0 12.5vw 0;
@@ -335,9 +338,9 @@
         font-size: 2.083vw;
         line-height: 3.385vw;
         color: #abafbc;
-        appearance: none; 
+        appearance: none;
         overflow: hidden;
-        background-image: url('../img/cheveron-down.png') ; 
+        background-image: url("../img/cheveron-down.png");
         background-repeat: no-repeat;
         background-size: 2.604vw;
         background-position: 95%;
@@ -357,9 +360,9 @@
           font-size: 2.083vw;
           line-height: 3.385vw;
           color: #abafbc;
-          appearance: none; 
+          appearance: none;
           overflow: hidden;
-          background-image: url('../img/cheveron-down.png') ; 
+          background-image: url("../img/cheveron-down.png");
           background-repeat: no-repeat;
           background-size: 2.604vw;
           background-position: 90%;
@@ -379,14 +382,14 @@
       gap: 4.298vw;
       padding-top: 4.167vw;
     }
-  
+
     .form-for-credit.for-autocredit {
       padding-top: 6.51vw;
-  
+
       .block-input {
         display: flex;
         flex-direction: column;
-        &.input-for-autocredit{
+        &.input-for-autocredit {
           flex-wrap: wrap;
           height: 19.533vw;
           row-gap: 1.302vw;
@@ -394,7 +397,7 @@
           margin-top: 4.167vw;
         }
       }
-  
+
       .input-name,
       .input-tel,
       .input-date,
@@ -411,17 +414,17 @@
           width: 44.533vw;
           height: 7.813vw;
           padding-left: 2.605vw;
-        font-family: "Mulish";
-        font-style: normal;
-        font-weight: 400;
-        font-size: 2.083vw;
-        line-height: 3.385vw;
-        color: #abafbc;
+          font-family: "Mulish";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 2.083vw;
+          line-height: 3.385vw;
+          color: #abafbc;
         }
       }
-  
+
       .button-sub {
-        button{
+        button {
           width: 92.188vw;
         }
       }
@@ -434,7 +437,7 @@
         display: flex;
         justify-content: space-between;
       }
-  
+
       h5 {
         font-family: "Mulish";
         font-style: normal;
@@ -444,7 +447,7 @@
         color: #010334;
         padding-bottom: 1.302vw;
       }
-  
+
       .per {
         font-family: "Mulish";
         font-style: normal;
@@ -454,7 +457,7 @@
         align-items: center;
         color: #585b79;
       }
-  
+
       h6 {
         font-family: "Mulish";
         font-style: normal;
@@ -465,7 +468,7 @@
         padding-bottom: 1.302vw;
       }
     }
-  
+
     .val-summ {
       font-family: "Mulish";
       font-style: normal;
@@ -476,7 +479,7 @@
       align-items: center;
       color: #1a1a1a;
     }
-  
+
     input[type="range"] {
       width: 100%;
       height: 0.39vw;
@@ -486,13 +489,13 @@
       border-radius: 1.302vw;
       background: #e4e4e4;
     }
-  
+
     input[type="range"]::-webkit-slider-runnable-track {
       height: 0.39vw;
       border-radius: 1.302vw;
       background: transparent;
     }
-  
+
     input[type="range"]::-webkit-slider-thumb {
       -webkit-appearance: none;
       appearance: none;
@@ -504,9 +507,285 @@
       cursor: pointer;
       margin-top: -0.912vw;
       margin-left: -0.52vw;
-  
+
       &:hover {
         border: 0.26vw solid gray;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 600px) {
+  .get-autocredit {
+    padding: 13.333vw 0 20.533vw 0;
+    background: #f1f4f7;
+
+    .content {
+      display: flex;
+      gap: 0vw;
+    }
+
+    .title {
+      font-size: 8vw;
+      line-height: 10.133vw;
+      padding-bottom: 9.6vw;
+    }
+
+    .form-autocredit {
+      width: 91.733vw;
+    }
+
+    .form-text {
+      font-size: 5.333vw;
+      line-height: 6.667vw;
+      text-align: center;
+    }
+    .text-about {
+      display: none;
+    }
+  }
+
+  .form-autocredit {
+    .chose-auto-block {
+      padding-top: 8.534vw;
+      display: flex;
+      flex-direction: column;
+      gap: 4vw;
+    }
+    .select-input-block {
+      select {
+        width: 91.453vw;
+        height: 13.333vw;
+        background: #ffffff;
+        border-radius: 2.666vw;
+        padding-left: 5.335vw;
+        font-family: "Mulish";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 4.266vw;
+        line-height: 6.933vw;
+        color: #abafbc;
+        appearance: none;
+        overflow: hidden;
+        background-image: url("../img/cheveron-down.png");
+        background-repeat: no-repeat;
+        background-size: 5.333vw;
+        background-position: 95%;
+      }
+      &.block-one {
+        display: flex;
+        flex-direction: column;
+        gap: 4vw;
+        select {
+          width: 91.453vw;
+          height: 13.333vw;
+          background: #ffffff;
+          border-radius: 2.666vw;
+          padding-left: 5.335vw;
+          font-family: "Mulish";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 4.266vw;
+          line-height: 6.933vw;
+          color: #abafbc;
+          appearance: none;
+          overflow: hidden;
+          background-image: url("../img/cheveron-down.png");
+          background-repeat: no-repeat;
+          background-size: 5.333vw;
+          background-position: 95%;
+        }
+      }
+    }
+    .calc-auto-block {
+      padding-top: 13.333vw;
+    }
+    .content {
+      width: 100%;
+    }
+    .credit-calc {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 4vw;
+      padding-top: 8.534vw;
+    }
+
+    .form-for-credit.for-autocredit {
+      padding-top: 13.333vw;
+      .hidden-600 {
+        display: none;
+      }
+      .form-text-600,
+      .form-subtitle600 {
+        display: block;
+      }
+      .form-text-600 {
+        font-family: "Mulish";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 5.333vw;
+        line-height: 6.667vw;
+        text-align: center;
+        color: #1a1a1a;
+      }
+      .form-subtitle600 {
+        font-family: "Mulish";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 4.267vw;
+        line-height: 6.133vw;
+        text-align: center;
+        color: #010334;
+        padding-top: 4vw;
+      }
+
+      .block-input {
+        display: flex;
+        flex-direction: column;
+        &.input-for-autocredit {
+          flex-wrap: nowrap;
+          height: 77.333vw;
+          row-gap: 4vw;
+          column-gap: 6.4vw;
+          margin-top: 8.534vw;
+        }
+      }
+
+      .input-name,
+      .input-tel,
+      .input-date,
+      .input-sity {
+        background: #ffffff;
+        border-radius: 2.666vw;
+        width: 91.453vw;
+        height: 13.333vw;
+        display: flex;
+        align-items: center;
+        input {
+          background: #ffffff;
+          border-radius: 2.666vw;
+          width: 91.453vw;
+          height: 13.333vw;
+          padding-left: 12vw;
+          font-family: "Mulish";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 4.266vw;
+          line-height: 6.933vw;
+          color: #010334;
+          &::placeholder {
+            font-size: 4.267vw;
+            line-height: 6.933vw;
+            color: #abafbc;
+          }
+        }
+      }
+      .input-name {
+        position: relative;
+        &::before {
+          content: "";
+          width: 4.267vw;
+          height: 4.8vw;
+          background-image: url(../img/fio.png);
+          background-size: 100%;
+          position: absolute;
+          top: 50%;
+          left: 5.333vw;
+          transform: translate(0, -50%);
+          z-index: 2;
+        }
+      }
+      .input-tel {
+        position: relative;
+        &::before {
+          content: "";
+          width: 4.267vw;
+          height: 4.8vw;
+          background-image: url(../img/telinput.png);
+          background-size: 100%;
+          background-repeat: no-repeat;
+          position: absolute;
+          top: 50%;
+          left: 5.333vw;
+          transform: translate(0, -50%);
+          z-index: 2;
+        }
+      }
+      .button-sub {
+        button {
+          width: 91.467vw;
+          height: 13.333vw;
+          font-size: 4.267vw;
+          line-height: 5.867vw;
+        }
+      }
+    }
+    .block {
+      width: 100%;
+    }
+    .flex-container {
+      &.for-range {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      h5 {
+        font-size: 3.2vw;
+        line-height: 4vw;
+      }
+
+      .per {
+        font-size: 3.2vw;
+        line-height: 120%;
+      }
+
+      h6 {
+        font-size: 6.4vw;
+        line-height: 120%;
+      }
+    }
+
+    .val-summ {
+      font-family: "Mulish";
+      font-style: normal;
+      font-weight: 800;
+      font-size: 10.666vw;
+      line-height: 13.333vw;
+      display: flex;
+      align-items: center;
+      color: #1a1a1a;
+    }
+
+    input[type="range"] {
+      width: 100%;
+      height: 0.799vw;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      border-radius: 2.666vw;
+      background: #e4e4e4;
+    }
+
+    input[type="range"]::-webkit-slider-runnable-track {
+      height: 0.799vw;
+      border-radius: 2.666vw;
+      background: transparent;
+    }
+
+    input[type="range"]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 5.335vw;
+      height: 3.998vw;
+      background: #eec16a;
+      border: 0.266vw solid #ffffff;
+      border-radius: 6.4vw;
+      cursor: pointer;
+      margin-top: -1.868vw;
+      margin-left: -1.065vw;
+
+      &:hover {
+        border: 0.533vw solid gray;
       }
     }
   }

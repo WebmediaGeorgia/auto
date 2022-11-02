@@ -19,25 +19,22 @@
   }
 
   .just-marker {
-
     &.one {
       position: absolute;
       width: 3.698vw;
       height: 3.698vw;
-      left: calc(50% - 3.698vw/2 - 26.276vw);
-      top: calc(50% - 3.698vw/2 + 13.62vw);
+      left: calc(50% - 3.698vw / 2 - 26.276vw);
+      top: calc(50% - 3.698vw / 2 + 13.62vw);
     }
 
     &.two {
       position: absolute;
       width: 3.698vw;
       height: 3.698vw;
-      left: calc(50% - 3.698vw/2 + 43.672vw);
-      top: calc(50% - 3.698vw/2 + 9.141vw);
-
+      left: calc(50% - 3.698vw / 2 + 43.672vw);
+      top: calc(50% - 3.698vw / 2 + 9.141vw);
     }
   }
-
 
   .content {
     position: absolute;
@@ -55,9 +52,6 @@
     gap: 1.563vw;
     align-items: flex-start;
     justify-content: flex-start;
-
-
-
   }
 
   .addres-blocks {
@@ -67,12 +61,12 @@
   }
 
   .little-text {
-    font-family: 'Mulish';
+    font-family: "Mulish";
     font-style: normal;
     font-weight: 600;
     font-size: 1.042vw;
     line-height: 1.302vw;
-    color: #585B79;
+    color: #585b79;
 
     &.time {
       position: relative;
@@ -91,7 +85,6 @@
         top: 50%;
         transform: translate(0, -50%);
       }
-
     }
 
     &.phone {
@@ -110,33 +103,28 @@
         left: 0;
         top: 50%;
         transform: translate(0, -50%);
-
       }
-
     }
-
   }
 
   .big-text {
-    font-family: 'Mulish';
+    font-family: "Mulish";
     font-style: normal;
     font-weight: 600;
     font-size: 1.25vw;
     line-height: 1.563vw;
-    color: #1A1A1A;
+    color: #1a1a1a;
 
     a {
-      color: #1A1A1A;
-
+      color: #1a1a1a;
     }
   }
-
 }
-@media only screen and (max-width:1200px) {
+@media only screen and (max-width: 1200px) {
   .map {
     position: relative;
     height: 89.063vw;
-  
+
     .map-img {
       position: absolute;
       top: 0;
@@ -145,36 +133,33 @@
       height: 100%;
       object-fit: cover;
     }
-  
+
     .marker-big {
       position: absolute;
       width: 12.67vw;
       height: 15.292vw;
       left: 58.594vw;
-    top: 7.813vw;
+      top: 7.813vw;
     }
-  
+
     .just-marker {
-  
       &.one {
         position: absolute;
         width: 9.245vw;
         height: 9.245vw;
-        left: calc(50% - 9.245vw/2 - 65.69vw);
-        top: calc(50% - 9.245vw/2 + 34.05vw);
+        left: calc(50% - 9.245vw / 2 - 65.69vw);
+        top: calc(50% - 9.245vw / 2 + 34.05vw);
       }
-  
+
       &.two {
         position: absolute;
         width: 9.245vw;
         height: 9.245vw;
         left: 9.245vw;
         top: 73.958vw;
-  
       }
     }
-  
-  
+
     .content {
       position: absolute;
       top: 26.563vw;
@@ -191,33 +176,30 @@
       gap: 2.604vw;
       align-items: flex-start;
       justify-content: flex-start;
-  
-  
-  
     }
-  
+
     .addres-blocks {
       display: flex;
       gap: 0.39vw;
       flex-direction: column;
     }
-  
+
     .little-text {
-      font-family: 'Mulish';
+      font-family: "Mulish";
       font-style: normal;
       font-weight: 600;
       font-size: 2.083vw;
-line-height: 2.604vw;
-      color: #585B79;
-  
+      line-height: 2.604vw;
+      color: #585b79;
+
       &.time {
         position: relative;
         padding-left: 3.908vw;
-  
+
         &::before {
           content: "";
           width: 2.604vw;
-height: 2.604vw;
+          height: 2.604vw;
           background-image: url(../img/clock-icon.png);
           position: absolute;
           background-size: 100%;
@@ -227,13 +209,12 @@ height: 2.604vw;
           top: 50%;
           transform: translate(0, -50%);
         }
-  
       }
-  
+
       &.phone {
         position: relative;
         padding-left: 3.908vw;
-  
+
         &::before {
           content: "";
           width: 2.604vw;
@@ -246,26 +227,128 @@ height: 2.604vw;
           left: 0;
           top: 50%;
           transform: translate(0, -50%);
-  
         }
-  
       }
-  
     }
-  
+
     .big-text {
-      font-family: 'Mulish';
+      font-family: "Mulish";
       font-style: normal;
       font-weight: 600;
       font-size: 2.604vw;
       line-height: 3.255vw;
-      color: #1A1A1A;
-  
+      color: #1a1a1a;
+
       a {
-        color: #1A1A1A;
-  
+        color: #1a1a1a;
       }
     }
-  
+  }
+}
+@media only screen and (max-width: 600px) {
+  .map {
+    position: relative;
+    height: 152.533vw;
+
+    .map-img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .marker-big {
+      position: absolute;
+      width: 20.533vw;
+      height: 24.8vw;
+      left: 57.867vw;
+      top: 18.667vw;
+    }
+
+    .content {
+      position: absolute;
+      left: 4.267vw;
+      top: 74.933vw;
+      width: 91.467vw;
+      height: 58.933vw;
+      background-image: url(../img/bg-adress.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      padding: 7.733vw 0 8vw 8.533vw;
+      display: flex;
+      flex-direction: column;
+      gap: 5.333vw;
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
+
+    .addres-blocks {
+      display: flex;
+      gap: 0.799vw;
+      flex-direction: column;
+    }
+
+    .little-text {
+      font-family: "Mulish";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 3.2vw;
+      line-height: 4vw;
+      color: #585b79;
+
+      &.time {
+        position: relative;
+        padding-left: 6.67vw;
+
+        &::before {
+          content: "";
+          width: 4.267vw;
+          height: 4.267vw;
+          background-image: url(../img/clock-icon.png);
+          position: absolute;
+          background-size: 100%;
+          background-repeat: no-repeat;
+          background-position: center;
+          left: 0;
+          top: 50%;
+          transform: translate(0, -50%);
+        }
+      }
+
+      &.phone {
+        position: relative;
+        padding-left: 6.667vw;
+
+        &::before {
+          content: "";
+          width: 4.267vw;
+          height: 4.267vw;
+          background-image: url(../img/tel-icon.png);
+          position: absolute;
+          background-size: 80%;
+          background-repeat: no-repeat;
+          background-position: center;
+          left: 0;
+          top: 50%;
+          transform: translate(0, -50%);
+        }
+      }
+    }
+
+    .big-text {
+      font-family: "Mulish";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 4.267vw;
+      line-height: 5.333vw;
+      color: #1a1a1a;
+
+      a {
+        color: #1a1a1a;
+      }
+    }
   }
 }

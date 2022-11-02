@@ -5,19 +5,18 @@
   justify-content: center;
   flex-direction: column;
 
-
   .all_auto-title {
     width: 100%;
-    font-family: 'Mulish';
+    font-family: "Mulish";
     font-style: normal;
     font-weight: 900;
     font-size: 2.396vw;
     line-height: 3.021vw;
     text-align: center;
     text-transform: uppercase;
-    color: #1A1A1A;
+    color: #1a1a1a;
     padding-bottom: 2.083vw;
-    border-bottom: 0.052vw solid #D9D9D9;
+    border-bottom: 0.052vw solid #d9d9d9;
   }
 
   .all_auto-filter {
@@ -32,7 +31,7 @@
     }
 
     .sort {
-      font-family: 'Mulish';
+      font-family: "Mulish";
       font-style: normal;
       font-weight: 400;
       font-size: 0.938vw;
@@ -53,13 +52,11 @@
         background-image: url(../img/sort-icon.png);
         background-size: cover;
         background-repeat: no-repeat;
-
       }
-
     }
 
     .sort-item {
-      font-family: 'Mulish';
+      font-family: "Mulish";
       font-style: normal;
       font-weight: 400;
       font-size: 0.833vw;
@@ -69,7 +66,6 @@
 
       &.active {
         font-weight: 700;
-
       }
     }
   }
@@ -83,10 +79,10 @@
   }
 
   .auto_item {
-    width: 17.810vw;
+    width: 17.81vw;
     overflow: hidden;
-    background: #FFFFFF;
-    border: 0.052vw solid #CCDAFF;
+    background: #ffffff;
+    border: 0.052vw solid #ccdaff;
     border-radius: 0.521vw;
     display: flex;
     flex-direction: column;
@@ -94,7 +90,7 @@
     transition: 0.3s ease-in-out;
 
     &:hover {
-      border: 0.052vw solid #A6BEFF;
+      border: 0.052vw solid #a6beff;
       box-shadow: 0vw 0.104vw 0.677vw rgba(25, 1, 52, 0.15);
       transition: 0.3s ease-in-out;
     }
@@ -146,10 +142,9 @@
       font-size: 0;
       width: 1.458vw;
       height: 0.208vw;
-      background: #D9D9D9;
+      background: #d9d9d9;
       border-radius: 0.208vw;
       transition: 0.3s ease-in-out;
-
     }
 
     /* Активная точка */
@@ -173,12 +168,12 @@
     .auto_name {
       display: flex;
       flex-direction: column;
-      font-family: 'Mulish';
+      font-family: "Mulish";
       font-style: normal;
       font-weight: 900;
       font-size: 0.938vw;
       line-height: 1.198vw;
-      color: #1A1A1A;
+      color: #1a1a1a;
     }
 
     .model {
@@ -191,13 +186,12 @@
       align-items: flex-start;
       justify-content: flex-start;
       gap: 0.13vw;
-      font-family: 'Mulish';
+      font-family: "Mulish";
       font-style: normal;
       font-weight: 400;
       font-size: 0.833vw;
       line-height: 1.198vw;
-      color: #585B79;
-
+      color: #585b79;
     }
 
     .price {
@@ -208,59 +202,56 @@
     }
 
     .new_price {
-      font-family: 'Mulish';
+      font-family: "Mulish";
       font-style: normal;
       font-weight: 900;
       font-size: 1.667vw;
       line-height: 2.083vw;
-      color: #1A1A1A;
-
+      color: #1a1a1a;
     }
 
     .old_price {
-      font-family: 'Mulish';
+      font-family: "Mulish";
       font-style: normal;
       font-weight: 400;
       font-size: 1.042vw;
       line-height: 1.302vw;
       text-decoration-line: line-through;
-      color: #585B79;
+      color: #585b79;
     }
 
     .button {
-      border: 0.052vw solid #EEC16A;
+      border: 0.052vw solid #eec16a;
       border-radius: 0.521vw;
       display: flex;
       align-items: center;
       justify-content: center;
       padding: 0.521vw 0;
-      font-family: 'Mulish';
+      font-family: "Mulish";
       font-style: normal;
       font-weight: 900;
       font-size: 0.833vw;
       line-height: 1.25vw;
       text-transform: uppercase;
-      color: #EEC16A;
-
-
+      color: #eec16a;
     }
 
     .how_much {
-      font-family: 'Mulish';
+      font-family: "Mulish";
       font-style: normal;
       font-weight: 500;
       font-size: 0.729vw;
       line-height: 0.938vw;
-      color: #585B79;
+      color: #585b79;
     }
 
     .in_stok {
-      font-family: 'Mulish';
+      font-family: "Mulish";
       font-style: normal;
       font-weight: 900;
       font-size: 0.729vw;
       line-height: 0.938vw;
-      color: #4CB050;
+      color: #4cb050;
       position: absolute;
       right: 0;
       top: 0;
@@ -278,7 +269,6 @@
     svg {
       width: 100%;
     }
-
   }
 
   .button_more {
@@ -287,51 +277,49 @@
     align-items: center;
     justify-content: center;
     padding: 0.938vw 0 1.042vw 0;
-    font-family: 'Mulish';
+    font-family: "Mulish";
     font-style: normal;
     font-weight: 800;
     font-size: 1.042vw;
     line-height: 1.146vw;
     text-transform: uppercase;
-    color: #1A1A1A;
-    background: #EEC16A;
-    box-shadow: 0vw 0.052vw 0.104vw rgba(0, 0, 0, 0.06), 0vw 0.052vw 0.156vw rgba(0, 0, 0, 0.1);
+    color: #1a1a1a;
+    background: #eec16a;
+    box-shadow: 0vw 0.052vw 0.104vw rgba(0, 0, 0, 0.06),
+      0vw 0.052vw 0.156vw rgba(0, 0, 0, 0.1);
     border-radius: 0.521vw;
     cursor: pointer;
-
   }
-
 }
 
-@media only screen and (max-width:1200px){
+@media only screen and (max-width: 1200px) {
   .favorit-page {
     padding: 6.771vw 0 13.021vw 0;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-  
-  
+
     .all_auto-title {
       font-size: 4.688vw;
-line-height: 5.208vw;
+      line-height: 5.208vw;
       padding-bottom: 7.031vw;
-      border-bottom: 0.13vw solid #D9D9D9;
+      border-bottom: 0.13vw solid #d9d9d9;
     }
-  
+
     .all_auto-filter {
       display: flex;
       flex-direction: column;
       width: 100%;
-  
+
       .filter {
         display: flex;
         padding: 7.031vw 0 5.339vw 0;
         gap: 2.605vw;
       }
-  
+
       .sort {
-        font-family: 'Mulish';
+        font-family: "Mulish";
         font-style: normal;
         font-weight: 400;
         font-size: 2.345vw;
@@ -340,7 +328,7 @@ line-height: 5.208vw;
         padding: 0 5.208vw 0 3.908vw;
         position: relative;
         cursor: pointer;
-  
+
         &::before {
           content: "";
           width: 2.605vw;
@@ -352,27 +340,24 @@ line-height: 5.208vw;
           background-image: url(../img/sort-icon.png);
           background-size: cover;
           background-repeat: no-repeat;
-  
         }
-  
       }
-  
+
       .sort-item {
-        font-family: 'Mulish';
+        font-family: "Mulish";
         font-style: normal;
         font-weight: 400;
         font-size: 2.083vw;
         line-height: 3.385vw;
         color: #010334;
         cursor: pointer;
-  
+
         &.active {
           font-weight: 700;
-  
         }
       }
     }
-  
+
     .content {
       display: flex;
       flex-wrap: wrap;
@@ -380,49 +365,49 @@ line-height: 5.208vw;
       justify-content: flex-start;
       gap: 3.125vw;
     }
-  
+
     .auto_item {
       width: 44.525vw;
       overflow: hidden;
-      background: #FFFFFF;
-      border: 0.13vw solid #CCDAFF;
+      background: #ffffff;
+      border: 0.13vw solid #ccdaff;
       border-radius: 1.302vw;
       display: flex;
       flex-direction: column;
       position: relative;
       transition: 0.3s ease-in-out;
-  
+
       &:hover {
-        border: 0.13vw solid #A6BEFF;
+        border: 0.13vw solid #a6beff;
         box-shadow: 0vw 0.26vw 1.692vw rgba(25, 1, 52, 0.15);
         transition: 0.3s ease-in-out;
       }
     }
-  
+
     .little_slider {
       height: 30.99vw;
       position: relative;
-  
+
       .little_slider-item {
         width: 44.533vw;
         height: 30.99vw;
         position: relative;
-  
+
         img {
           width: 100%;
         }
       }
-  
+
       /* Слайдер */
       .slick-list {
         overflow: hidden;
       }
-  
+
       /* Лента слайдов */
       .slick-track {
         display: flex;
       }
-  
+
       /* Точки (булиты) */
       .slick-dots {
         display: flex;
@@ -435,22 +420,21 @@ line-height: 5.208vw;
         left: 50%;
         transform: translate(-50%, 0);
       }
-  
+
       .slick-dots li {
         list-style: none;
       }
-  
+
       /* Элемент точки */
       .slick-dots li button {
         font-size: 0;
         width: 3.645vw;
         height: 0.52vw;
-        background: #D9D9D9;
+        background: #d9d9d9;
         border-radius: 0.52vw;
         transition: 0.3s ease-in-out;
-  
       }
-  
+
       /* Активная точка */
       .slick-dots li.slick-active button {
         font-size: 0;
@@ -461,111 +445,107 @@ line-height: 5.208vw;
         transition: 0.3s ease-in-out;
       }
     }
-  
+
     .auto_info {
       margin: 2.605vw;
       display: flex;
       flex-direction: column;
       gap: 1.063vw;
       position: relative;
-  
+
       .auto_name {
         display: flex;
         flex-direction: column;
-        font-family: 'Mulish';
+        font-family: "Mulish";
         font-style: normal;
         font-weight: 900;
         font-size: 2.345vw;
         line-height: 2.995vw;
-        color: #1A1A1A;
+        color: #1a1a1a;
       }
-  
+
       .model {
         font-weight: 700;
       }
-  
+
       .auto_description {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         justify-content: flex-start;
         gap: 0.325vw;
-        font-family: 'Mulish';
+        font-family: "Mulish";
         font-style: normal;
         font-weight: 400;
         font-size: 2.083vw;
         line-height: 2.995vw;
-        color: #585B79;
-  
+        color: #585b79;
       }
-  
+
       .price {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         justify-content: flex-start;
       }
-  
+
       .new_price {
-        font-family: 'Mulish';
+        font-family: "Mulish";
         font-style: normal;
         font-weight: 900;
         font-size: 4.167vw;
         line-height: 5.208vw;
-        color: #1A1A1A;
-  
+        color: #1a1a1a;
       }
-  
+
       .old_price {
-        font-family: 'Mulish';
+        font-family: "Mulish";
         font-style: normal;
         font-weight: 400;
         font-size: 2.605vw;
         line-height: 3.255vw;
         text-decoration-line: line-through;
-        color: #585B79;
+        color: #585b79;
       }
-  
+
       .button {
-        border: 0.13vw solid #EEC16A;
+        border: 0.13vw solid #eec16a;
         border-radius: 1.302vw;
         display: flex;
         align-items: center;
         justify-content: center;
         padding: 1.302vw 0;
-        font-family: 'Mulish';
+        font-family: "Mulish";
         font-style: normal;
         font-weight: 900;
         font-size: 2.083vw;
         line-height: 3.125vw;
         text-transform: uppercase;
-        color: #EEC16A;
-  
-  
+        color: #eec16a;
       }
-  
+
       .how_much {
-        font-family: 'Mulish';
+        font-family: "Mulish";
         font-style: normal;
         font-weight: 500;
         font-size: 1.823vw;
         line-height: 2.345vw;
-        color: #585B79;
+        color: #585b79;
       }
-  
+
       .in_stok {
-        font-family: 'Mulish';
+        font-family: "Mulish";
         font-style: normal;
         font-weight: 900;
         font-size: 1.823vw;
         line-height: 2.345vw;
-        color: #4CB050;
+        color: #4cb050;
         position: absolute;
         right: 0;
         top: 0;
       }
     }
-  
+
     .wish_icon {
       width: 3.125vw;
       height: 3.125vw;
@@ -573,33 +553,301 @@ line-height: 5.208vw;
       top: 1.302vw;
       right: 1.302vw;
       cursor: pointer;
-  
+
       svg {
         width: 100%;
       }
-  
     }
-  
+
     .button_more {
       width: 60.417vw;
       display: flex;
       align-items: center;
       justify-content: center;
       padding: 2.345vw 0 2.605vw 0;
-      font-family: 'Mulish';
+      font-family: "Mulish";
       font-style: normal;
       font-weight: 800;
       font-size: 2.605vw;
       line-height: 2.865vw;
       text-transform: uppercase;
-      color: #1A1A1A;
-      background: #EEC16A;
-      box-shadow: 0vw 0.13vw 0.26vw rgba(0, 0, 0, 0.06), 0vw 0.13vw 0.39vw rgba(0, 0, 0, 0.1);
+      color: #1a1a1a;
+      background: #eec16a;
+      box-shadow: 0vw 0.13vw 0.26vw rgba(0, 0, 0, 0.06),
+        0vw 0.13vw 0.39vw rgba(0, 0, 0, 0.1);
       border-radius: 1.302vw;
       cursor: pointer;
-  
     }
-  
   }
+}
+@media only screen and (max-width: 600px) {
+  .favorit-page {
+    padding: 11.2vw 0 19.733vw 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 
+    .all_auto-title {
+      font-size: 8vw;
+      line-height: 10.133vw;
+      padding-bottom: 8.533vw;
+      border-bottom: 0.266vw solid #d9d9d9;
+    }
+
+    .all_auto-filter {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+
+      .filter {
+        display: flex;
+        padding: 8.533vw 0;
+        gap: 5.335vw;
+      }
+
+      .sort {
+        font-family: "Mulish";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 4.803vw;
+        line-height: 6.134vw;
+        color: #010334;
+        padding: 0 10.666vw 0 8.003vw;
+        position: relative;
+        cursor: pointer;
+
+        &::before {
+          content: "";
+          width: 5.335vw;
+          height: 5.335vw;
+          position: absolute;
+          left: 0;
+          top: 50%;
+          transform: translate(0, -50%);
+          background-image: url(../img/sort-icon.png);
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+      }
+
+      .sort-item {
+        font-family: "Mulish";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 4.266vw;
+        line-height: 6.933vw;
+        color: #010334;
+        cursor: pointer;
+
+        &.active {
+          font-weight: 700;
+        }
+      }
+    }
+
+    .content {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      justify-content: flex-start;
+      gap: 5.333vw;
+    }
+
+    .auto_item {
+      width: 91.187vw;
+      overflow: hidden;
+      background: #ffffff;
+      border: 0.266vw solid #ccdaff;
+      border-radius: 2.666vw;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      transition: 0.3s ease-in-out;
+
+      &:hover {
+        border: 0.266vw solid #a6beff;
+        box-shadow: 0vw 0.533vw 3.465vw rgba(25, 1, 52, 0.15);
+        transition: 0.3s ease-in-out;
+      }
+    }
+
+    .little_slider {
+      height: 46.133vw;
+      position: relative;
+
+      .little_slider-item {
+        width: 891.467vw;
+        height: 46.133vw;
+        position: relative;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+
+      /* Слайдер */
+      .slick-list {
+        overflow: hidden;
+      }
+
+      /* Лента слайдов */
+      .slick-track {
+        display: flex;
+      }
+
+      /* Точки (булиты) */
+      .slick-dots {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2.666vw;
+        position: absolute;
+        bottom: 4.53vw;
+        z-index: 10;
+        left: 50%;
+        transform: translate(-50%, 0);
+      }
+
+      .slick-dots li {
+        list-style: none;
+      }
+
+      /* Элемент точки */
+      .slick-dots li button {
+        font-size: 0;
+        width: 7.465vw;
+        height: 1.065vw;
+        background: #d9d9d9;
+        border-radius: 1.065vw;
+        transition: 0.3s ease-in-out;
+      }
+
+      /* Активная точка */
+      .slick-dots li.slick-active button {
+        font-size: 0;
+        width: 7.465vw;
+        height: 1.065vw;
+        background: #010334;
+        border-radius: 1.065vw;
+        transition: 0.3s ease-in-out;
+      }
+    }
+
+    .auto_info {
+      margin: 5.335vw;
+      display: flex;
+      flex-direction: column;
+      gap: 2.177vw;
+      position: relative;
+
+      .auto_name {
+        font-size: 4.267vw;
+        line-height: 5.333vw;
+      }
+
+      .model {
+        font-weight: 700;
+      }
+
+      .auto_description {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 1.333vw;
+        font-size: 3.733vw;
+        line-height: 4.8vw;
+      }
+
+      .price {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+      }
+
+      .new_price {
+        font-size: 6.4vw;
+        line-height: 8vw;
+      }
+
+      .old_price {
+        font-size: 4.267vw;
+        line-height: 5.333vw;
+      }
+
+      .button {
+        border: 0.266vw solid #eec16a;
+        border-radius: 2.666vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2.666vw 0;
+        font-family: "Mulish";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 4.266vw;
+        line-height: 6.4vw;
+        text-transform: uppercase;
+        color: #eec16a;
+      }
+
+      .how_much {
+        font-family: "Mulish";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 3.734vw;
+        line-height: 4.803vw;
+        color: #585b79;
+      }
+
+      .in_stok {
+        font-family: "Mulish";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 3.734vw;
+        line-height: 4.803vw;
+        color: #4cb050;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+    }
+
+    .wish_icon {
+      width: 6.4vw;
+      height: 6.4vw;
+      position: absolute;
+      top: 2.666vw;
+      right: 2.666vw;
+      cursor: pointer;
+
+      svg {
+        width: 100%;
+      }
+    }
+
+    .button_more {
+      width: 123.734vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 4.803vw 0 5.335vw 0;
+      font-family: "Mulish";
+      font-style: normal;
+      font-weight: 800;
+      font-size: 5.335vw;
+      line-height: 5.867vw;
+      text-transform: uppercase;
+      color: #1a1a1a;
+      background: #eec16a;
+      box-shadow: 0vw 0.266vw 0.533vw rgba(0, 0, 0, 0.06),
+        0vw 0.266vw 0.799vw rgba(0, 0, 0, 0.1);
+      border-radius: 2.666vw;
+      cursor: pointer;
+    }
+  }
 }
