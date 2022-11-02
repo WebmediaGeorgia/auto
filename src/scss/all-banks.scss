@@ -115,20 +115,20 @@
   }
 }
 
-@media only screen and (max-width:1200px){
+@media only screen and (max-width: 1200px) {
   .all-banks {
     padding: 11.458vw 0 13.021vw 0;
     background-image: url(../img/1200/bank1200.png);
     background-repeat: no-repeat;
     background-size: 100%;
-  
+
     .content {
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
     }
-  
+
     .title {
       font-family: "Mulish";
       font-style: normal;
@@ -139,7 +139,7 @@
       color: #1a1a1a;
       padding-bottom: 2.345vw;
     }
-  
+
     .text {
       font-family: "Mulish";
       font-style: normal;
@@ -149,10 +149,9 @@
       color: #010334;
       width: 59.245vw;
       text-align: center;
-      padding-bottom: 30px;
-      
+      padding-bottom: 3.906vw;
     }
-  
+
     .all-banks-items {
       display: flex;
       justify-content: space-between;
@@ -161,7 +160,7 @@
       row-gap: 3.906vw;
       flex-wrap: wrap;
     }
-  
+
     .bank-item {
       width: 44.525vw;
       height: 19.663vw;
@@ -171,67 +170,168 @@
       border-radius: 1.952vw;
       background-repeat: no-repeat;
       background-position: center;
-  
+
       &:nth-child(1) {
         background-image: url(../img/bank1.png);
         background-size: 23.438vw 3.908vw;
       }
-  
+
       &:nth-child(2) {
         background-image: url(../img/bank2.png);
         background-size: 23.438vw 5.273vw;
       }
-  
+
       &:nth-child(3) {
         background-image: url(../img/bank3.png);
         background-size: 23.438vw 4.558vw;
       }
-  
+
       &:nth-child(4) {
         background-image: url(../img/bank4.png);
         background-size: 23.438vw 3.515vw;
       }
-  
+
       &:nth-child(5) {
         background-image: url(../img/bank5.png);
         background-size: 23.438vw 2.5vw;
       }
-  
+
       &:nth-child(6) {
         background-image: url(../img/bank6.png);
         background-size: 19.533vw 4.037vw;
       }
-  
+
       &:nth-child(7) {
         background-image: url(../img/bank7.png);
         background-size: 23.438vw 3.515vw;
       }
-  
+
       &:nth-child(8) {
         background-image: url(../img/bank8.png);
         background-size: 23.438vw 3.308vw;
       }
-  
+
       &:nth-child(9) {
         background-image: url(../img/bank9.png);
         background-size: 16.927vw 5.077vw;
       }
-  
+
       &:nth-child(10) {
         background-image: url(../img/bank10.png);
         background-size: 23.438vw 5.99vw;
       }
-  
+
       &:nth-child(11) {
         background-image: url(../img/bank11.png);
         background-size: 23.438vw 2.942vw;
       }
-  
+
       &:nth-child(12) {
         background-image: url(../img/bank12.png);
         background-size: 16.927vw 4.948vw;
       }
     }
   }
+}
+@media only screen and (max-width: 600px) {
+  .all-banks {
+    padding: 11.2vw 0 13.333vw 0;
+    background-image: url(../img/600/bgbanks.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
 
+    .title {
+      font-size: 8vw;
+      line-height: 10.133vw;
+      padding-bottom: 4.003vw;
+    }
+
+    .text {
+      font-size: 3.733vw;
+      line-height: 5.6vw;
+      width: 87.733vw;
+      text-align: center;
+      padding-bottom: 4vw;
+    }
+
+    .all-banks-items {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      column-gap: 4vw;
+      row-gap: 4.267vw;
+      flex-wrap: wrap;
+    }
+
+    .bank-item {
+      width: 43.733vw;
+      height: 19.467vw;
+      border: 0.533vw solid rgba(0, 0, 0, 0.02);
+      backdrop-filter: blur(1.333vw);
+      border-radius: 4vw;
+
+      background-repeat: no-repeat;
+      background-position: center;
+
+      &:nth-child(1) {
+        background-image: url(../img/bank1.png);
+        background-size: 23.438vw 3.908vw;
+      }
+
+      &:nth-child(2) {
+        background-image: url(../img/bank2.png);
+        background-size: 23.438vw 5.273vw;
+      }
+
+      &:nth-child(3) {
+        background-image: url(../img/bank3.png);
+        background-size: 23.438vw 4.558vw;
+      }
+
+      &:nth-child(4) {
+        background-image: url(../img/bank4.png);
+        background-size: 23.438vw 3.515vw;
+      }
+
+      &:nth-child(5) {
+        background-image: url(../img/bank5.png);
+        background-size: 23.438vw 2.5vw;
+      }
+
+      &:nth-child(6) {
+        background-image: url(../img/bank6.png);
+        background-size: 19.533vw 4.037vw;
+      }
+
+      &:nth-child(7) {
+        background-image: url(../img/bank7.png);
+        background-size: 23.438vw 3.515vw;
+      }
+
+      &:nth-child(8) {
+        background-image: url(../img/bank8.png);
+        background-size: 23.438vw 3.308vw;
+      }
+
+      &:nth-child(9) {
+        background-image: url(../img/bank9.png);
+        background-size: 16.927vw 5.077vw;
+      }
+
+      &:nth-child(10) {
+        background-image: url(../img/bank10.png);
+        background-size: 23.438vw 5.99vw;
+      }
+
+      &:nth-child(11) {
+        background-image: url(../img/bank11.png);
+        background-size: 23.438vw 2.942vw;
+      }
+
+      &:nth-child(12) {
+        background-image: url(../img/bank12.png);
+        background-size: 16.927vw 4.948vw;
+      }
+    }
+  }
 }

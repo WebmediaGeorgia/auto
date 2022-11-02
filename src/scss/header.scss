@@ -454,11 +454,11 @@
       background: rgba(0, 0, 0, 0.6);
       backdrop-filter: blur(0.26vw);
       z-index: 11000;
-      transform: translate(100%,0);
+      transform: translate(100%, 0);
       transition: 0.3s ease-in-out;
-      &.active{
-        transform: translate(0,0);
-      transition: 0.3s ease-in-out;
+      &.active {
+        transform: translate(0, 0);
+        transition: 0.3s ease-in-out;
       }
     }
     .wrapper {
@@ -474,6 +474,9 @@
       cursor: pointer;
       width: 4.167vw;
       height: 4.167vw;
+      img {
+        width: 100%;
+      }
     }
 
     .right-part {
@@ -588,6 +591,225 @@
       }
       .checkbox__text {
         text-align: center;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    .header__top {
+      background-image: none;
+      height: 17.067vw;
+      background: linear-gradient(
+          90deg,
+          #398593 0%,
+          #448c99 48.44%,
+          #2c7481 100%
+        ),
+        #ffffff;
+    }
+    .item_first {
+      font-size: 3.2vw;
+      line-height: 4.267vw;
+      width: 34.4vw;
+      text-align: left;
+    }
+    .item_two {
+      display: none;
+    }
+    .button_three {
+      border-radius: 2.667vw;
+      width: 44.267vw;
+      height: 8.267vw;
+      font-weight: 800;
+      font-size: 3.2vw;
+      line-height: 6.4vw;
+    }
+    .close {
+      width: 5.333vw;
+      height: 5.333vw;
+      left: calc(50% - 5.333vw / 2 + 44.133vw);
+      top: calc(50% - 5.333vw / 2);
+    }
+    .header__down_content {
+      padding: 5.067vw 0;
+      justify-content: space-between;
+    }
+    .header__adress {
+      display: none;
+    }
+    .header_counter {
+      display: none;
+    }
+    .header__button {
+      order: 1;
+      padding: 0;
+      border-radius: 1.867vw;
+      width: 12vw;
+      height: 12vw;
+      a {
+        color: transparent;
+        background-image: url(../img/tel-icon.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 4.8vw;
+        cursor: pointer;
+      }
+    }
+
+    .header__logo {
+      width: 23.2vw;
+      height: 8.533vw;
+      order: 2;
+    }
+    .menu-burger-icon {
+      order: 3;
+      display: block;
+      margin-left: 0;
+      cursor: pointer;
+      width: 11.2vw;
+      height: 11.2vw;
+      right: 2.667vw;
+      top: calc(50% - 11.2vw / 2 + 0.133vw);
+      background-image: url(../img/600/burger600.png);
+      background-size: 7.467vw 5.6vw;
+      background-position: center;
+      background-repeat: no-repeat;
+      img {
+        display: none;
+      }
+    }
+    .right-part {
+      width: 100%;
+      padding: 13.6vw 0;
+    }
+    .burger-close {
+      position: absolute;
+      right: 3.467vw;
+      top: 3.733vw;
+      cursor: pointer;
+      width: 8.533vw;
+      height: 8.533vw;
+      img {
+        width: 100%;
+      }
+    }
+
+    .burger-logo {
+      width: 29.333vw;
+      height: 10.667vw;
+      margin-bottom: 12.8vw;
+      margin-left: -5.333vw;
+      img {
+        width: 100%;
+      }
+    }
+    .burger-nav {
+      gap: 10.667vw;
+      margin-bottom: 35.733vw;
+      a {
+        font-size: 5.333vw;
+        line-height: 6.933vw;
+      }
+    }
+    .burger-contacts {
+      gap: 1.333vw;
+      border-bottom: 0.533vw solid #7877778e;
+      padding-bottom: 10.667vw;
+      .tel {
+        font-size: 4.8vw;
+        line-height: 6.933vw;
+        padding-left: 6.667vw;
+        &::before {
+          width: 3.467vw;
+          height: 3.467vw;
+        }
+      }
+      .mail {
+        font-size: 4.8vw;
+        line-height: 6.933vw;
+        padding-left: 6.667vw;
+        &::before {
+          width: 5.067vw;
+          height: 4vw;
+        }
+      }
+    }
+    .wrapper {
+      height: 250.667vw;
+      display: flex;
+      align-items: flex-end;
+      position: relative;
+    }
+
+    .button-form {
+      .agree-input {
+        width: 74.933vw;
+        label {
+          font-size: 3.467vw;
+          line-height: 5.333vw;
+        }
+      }
+
+      .title-form {
+        font-weight: 900;
+        font-size: 5.333vw;
+        line-height: 6.667vw;
+        padding-top: 48;
+        padding-bottom: 8vw;
+      }
+      .block-input {
+        gap: 4vw;
+      }
+      .form-for-credit {
+        .input-name {
+          input {
+            width: 91.467vw;
+            height: 13.333vw;
+            border-radius: 2.667vw;
+            background-position: 5.333vw center;
+            background-size: 4.267vw 5.067vw;
+            font-weight: 400;
+            font-size: 4.267vw;
+            line-height: 6.933vw;
+            color: #010334;
+            &::placeholder {
+              font-size: 4.267vw;
+              line-height: 6.933vw;
+              padding-left: 5.333vw;
+            }
+          }
+        }
+        .input-tel {
+          input {
+            width: 91.467vw;
+            height: 13.333vw;
+            border-radius: 2.667vw;
+            background-position: 5.333vw center;
+            background-size: 4.8vw 5.067vw;
+            font-weight: 400;
+            font-size: 4.267vw;
+            line-height: 6.933vw;
+            color: #010334;
+            &::placeholder {
+              font-size: 4.267vw;
+              line-height: 6.933vw;
+              padding-left: 5.333vw;
+            }
+          }
+        }
+      }
+      .button-sub {
+        width: 91.453vw;
+        height: 13.333vw;
+        button {
+          width: 91.453vw;
+          height: 13.333vw;
+          border-radius: 2.667vw;
+          font-size: 4.267vw;
+          line-height: 5.867vw;
+        }
       }
     }
   }

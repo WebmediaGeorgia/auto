@@ -30,6 +30,14 @@ main {
     margin-top: 21.892vw;
   }
 }
+@media only screen and (max-width:600px) {
+  .container {
+    width: 91.467vw;
+  }
+  main {
+    margin-top: 39.2vw;
+  }
+}
 
 @import "header";
 @import "banner-slider";

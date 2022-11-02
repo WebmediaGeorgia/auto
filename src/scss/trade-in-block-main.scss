@@ -141,9 +141,9 @@
       font-size: 0.833vw;
       line-height: 1.354vw;
       color: #abafbc;
-      appearance: none; 
+      appearance: none;
       overflow: hidden;
-      background-image: url('../img/cheveron-down.png') ; 
+      background-image: url("../img/cheveron-down.png");
       background-repeat: no-repeat;
       background-size: 1.042vw;
       background-position: 95%;
@@ -340,9 +340,9 @@
         font-size: 2.083vw;
         line-height: 3.385vw;
         color: #abafbc;
-        appearance: none; 
+        appearance: none;
         overflow: hidden;
-        background-image: url('../img/cheveron-down.png') ; 
+        background-image: url("../img/cheveron-down.png");
         background-repeat: no-repeat;
         background-size: 2.604vw;
         background-position: 95%;
@@ -388,6 +388,183 @@
       color: #1a1a1a;
       cursor: pointer;
       transition: 0.3s ease-in-out;
+
+      &:hover {
+        transition: 0.3s ease-in-out;
+        background: #fbd07c;
+        box-shadow: 0vw 0.052vw 0.104vw rgba(0, 0, 0, 0.06),
+          0vw 0.052vw 0.156vw rgba(0, 0, 0, 0.1);
+      }
+    }
+  }
+}
+@media only screen and (max-width: 600px) {
+  .trade-in-block-main {
+    padding: 13.333vw 0 0 0;
+    .trade-in-content {
+      width: 100%;
+    }
+
+    form {
+      display: flex;
+      gap: 12vw;
+      flex-direction: column;
+      justify-content: space-between;
+      padding-bottom: 0;
+
+      .left-part {
+        width: 91.467vw;
+        display: flex;
+        flex-direction: column;
+        gap: 4vw;
+      }
+
+      .select-input-text {
+        width: 91.467vw;
+        font-family: "Mulish";
+        text-align: center;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 3.733vw;
+        line-height: 5.333vw;
+        color: #010334;
+        align-self: center;
+      }
+    }
+
+    .first-block {
+      border-radius: 1.302vw;
+
+      flex-direction: column;
+      padding: 9.375vw 6.51vw 6.51vw 6.51vw;
+      align-items: center;
+    }
+
+    .title-block {
+      font-size: 8vw;
+      line-height: 10.133vw;
+      padding-bottom: 9.6vw;
+    }
+
+    .steps {
+      width: 70.4vw;
+      height: 10.133vw;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 2.667vw;
+      padding-bottom: 20.267vw;
+
+      .step-sircle {
+        border: 0.383vw solid #a2a8bd;
+        border-radius: 12.267vw;
+        width: 10.133vw;
+        height: 10.133vw;
+        font-weight: 600;
+        font-size: 4.8vw;
+        line-height: 6.133vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #a2a8bd;
+
+        &.active {
+          background: linear-gradient(
+              96.97deg,
+              #440551 -8.52%,
+              #631279 -0.67%,
+              #404267 68.68%,
+              #3c7a80 99.19%,
+              #3c7a80 99.19%
+            ),
+            #ffffff;
+          border-radius: 12.267vw;
+          color: #ffffff;
+        }
+        .text-sirsle {
+          position: absolute;
+          top: 12.552vw;
+          font-size: 3.2vw;
+          line-height: 120%;
+          width: 25.333vw;
+
+          &.active {
+            font-size: 3.2vw;
+            line-height: 120%;
+          }
+        }
+      }
+
+      .circle-line {
+        width: 12.267vw;
+        height: 0.26vw;
+        background-color: rgba(171, 175, 188, 0.3);
+
+        &.active {
+          background: linear-gradient(
+              95.52deg,
+              #440551 0.7%,
+              #404267 55.29%,
+              #3c7a80 99.34%,
+              #3c7a80 99.34%
+            ),
+            #ffffff;
+        }
+      }
+    }
+
+    .select-input-block {
+      margin-bottom: 0.65vw;
+      width: 91.467vw;
+      height: 13.333vw;
+
+      select {
+        background: #f1f4f7;
+        height: 13.333vw;
+        padding: 0 2.605vw;
+        border-radius: 2.667vw;
+        font-size: 4.267vw;
+        line-height: 6.933vw;
+        color: #abafbc;
+        appearance: none;
+        overflow: hidden;
+        background-image: url("../img/cheveron-down.png");
+        background-repeat: no-repeat;
+        background-size: 5.333vw;
+        background-position: 95%;
+      }
+
+      .name {
+      }
+
+      .count {
+      }
+    }
+
+    .right-part {
+      width: 91.467vw;
+      height: 45.333vw;
+      border-radius: 2.667vw;
+
+      img {
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+        border-radius: 1.302vw;
+      }
+    }
+
+    .text {
+    }
+
+    .trade-form-btn {
+      box-shadow: 0vw 0.267vw 0.533vw rgba(0, 0, 0, 0.06),
+        0vw 0.267vw 0.8vw rgba(0, 0, 0, 0.1);
+      border-radius: 2.667vw;
+      width: 91.467vw;
+      height: 13.333vw;
+      font-size: 4.267vw;
+      line-height: 5.867vw;
 
       &:hover {
         transition: 0.3s ease-in-out;

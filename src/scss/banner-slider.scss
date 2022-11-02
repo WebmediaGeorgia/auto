@@ -75,8 +75,8 @@
     &:hover {
       background: #fbd07c;
       transition: 0.3s ease-in-out;
-      box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.06),
-        0px 1px 3px rgba(0, 0, 0, 0.1);
+      box-shadow: 0vw 0.052vw 0.104vw rgba(0, 0, 0, 0.06),
+        0vw 0.052vw 0.156vw rgba(0, 0, 0, 0.1);
     }
   }
 
@@ -220,7 +220,7 @@
     font-size: 0;
     width: 0.781vw;
     height: 0.781vw;
-    border-radius: 49.997px;
+    border-radius: 2.604vw;
     transition: 0.3s ease-in-out;
     background: #ffffff;
     opacity: 0.3;
@@ -231,7 +231,7 @@
     font-size: 0;
     width: 2.848vw;
     height: 0.781vw;
-    border-radius: 49.997px;
+    border-radius: 2.604vw;
     transition: 0.3s ease-in-out;
     background: #ffffff;
     opacity: 1;
@@ -375,5 +375,157 @@
       height: 1.302vw;
       border-radius: 4.557vw;
     }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .slider {
+    height: 210.667vw;
+    background: linear-gradient(
+      95.52deg,
+      #440551 0.7%,
+      #404267 55.29%,
+      #3c7a80 99.34%,
+      #3c7a80 99.34%
+    );
+
+    .slider_item {
+      height: 210.667vw;
+      overflow: hidden;
+
+      .banner_content {
+        position: absolute;
+        width: 92.188vw;
+        left: 4vw;
+        top: 8vw;
+        transform: translate(0);
+      }
+    }
+
+    .title_slide {
+      font-size: 8vw;
+      line-height: 10.667vw;
+      padding-bottom: 2.667vw;
+    }
+
+    .text_slide {
+      font-size: 5.333vw;
+      line-height: 6.933vw;
+      width: 87.467vw;
+      padding-bottom: 4.167vw;
+    }
+
+    .button_slide {
+      background: #eec16a;
+      box-shadow: 0vw 0.13vw 0.26vw rgba(0, 0, 0, 0.06),
+        0vw 0.13vw 0.39vw rgba(0, 0, 0, 0.1);
+      border-radius: 2.667vw;
+      padding: 2.345vw 3.125vw 2.605vw 3.125vw;
+      font-size: 4.267vw;
+      line-height: 5.867vw;
+      width: 91.467vw;
+      height: 13.333vw;
+      position: absolute;
+      bottom: -18.667vw;
+    }
+
+    .sliders_blocks {
+      gap: 4vw;
+      padding-top: 34.6vw;
+      flex-direction: column;
+    }
+
+    .block {
+      width: 91.467vw;
+      height: 29.067vw;
+      display: flex;
+      flex-direction: column;
+      gap: 1.333vw;
+      padding: 4.533vw 7.467vw 0vw 4.267vw;
+      border: 0.533vw solid rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(1.333vw);
+      border-radius: 2.667vw;
+      background: rgba(255, 255, 255, 0.64);
+    }
+
+    .block_one {
+      background-image: none;
+    }
+
+    .content {
+      display: flex;
+      flex-direction: column;
+      gap: 1.042vw;
+    }
+
+    .title {
+      font-size: 4.8vw;
+      line-height: 6.4vw;
+      width: 76.533vw;
+    }
+
+    .text {
+      font-size: 3.733vw;
+      line-height: 5.333vw;
+    }
+
+    .block_two {
+      background-image: none;
+    }
+
+    .block_three {
+      background-image: none;
+    }
+
+    .banner {
+      right: -8vw;
+      top: 28.133vw;
+      z-index: -1;
+      width: 129.333vw;
+      height: 78.667vw;
+      z-index: -1;
+    }
+
+    /* Слайдер */
+    .slick-list {
+      overflow: hidden;
+    }
+
+    /* Лента слайдов */
+    .slick-track {
+      display: flex;
+    }
+
+    /* Стрелка */
+    .slick-arrow {
+      display: none!important;
+    }
+    /* Точки (булиты) */
+    .slick-dots {
+      gap: 4.533vw;
+      bottom: 3.906vw;
+    }
+    /* Элемент точки */
+    .slick-dots li button {
+      width: 2.669vw;
+      height: 2.669vw;
+      border-radius: 12.132vw;
+    }
+    /* Активная точка */
+    .slick-dots li.slick-active button {
+      width: 9.731vw;
+      height: 2.669vw;
+      border-radius: 12.132vw;
+    }
+
+      /* Стрелка влево */
+  .slick-arrow.slick-prev {
+   display: none!important;
+  }
+
+  /* Стрелка вправо */
+  .slick-arrow.slick-next {
+    display: none!important;
+  }
   }
 }
