@@ -16269,7 +16269,9 @@ main {
 
 @media only screen and (max-width:1200px) {
     .webp .header .burger-contacts .tel::before {
-        background: url(../img/1200/phone-burger.webp)
+        background: url(../img/1200/phone-burger.webp);
+        background-size: contain;
+        
     }
 }
 
