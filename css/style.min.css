@@ -10852,6 +10852,7 @@ main {
         width: 92.188vw;
         height: 95vh;
         background: #fff;
+        background-image: none!important;
         border-radius: 1.302vw;
         overflow-y: scroll
     }
@@ -11437,9 +11438,10 @@ main {
 
     .slider {
         height: 210.667vw;
-        background: -o-linear-gradient(354.48deg, #440551 .7%, #404267 55.29%, #3c7a80 99.34%, #3c7a80 99.34%);
-        background: linear-gradient(95.52deg, #440551 .7%, #404267 55.29%, #3c7a80 99.34%, #3c7a80 99.34%)
+        background: -o-linear-gradient(354.48deg, #440551 .7%, #404267 55.29%, #3c7a80 99.34%, #3c7a80 99.34%)!important;
+        background: linear-gradient(95.52deg, #440551 .7%, #404267 55.29%, #3c7a80 99.34%, #3c7a80 99.34%)!important
     }
+    
 
     .slider .slider_item {
         height: 210.667vw;
@@ -14799,7 +14801,7 @@ main {
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
-        padding: 2.4vw 5.333vw;
+        padding: 2.4vw 5.333vw 2.4vw 10.333vw;
         width: 91.467vw;
         height: 13.333vw;
         background: #f1f4f7;
@@ -14907,7 +14909,7 @@ main {
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
-        padding: 2.4vw 5.333vw;
+        padding: 2.4vw 5.333vw 2.4vw 10.333vw;
         width: 91.467vw;
         height: 13.333vw;
         background: #f1f4f7;
