@@ -1203,7 +1203,8 @@ main {
 }
 
 .all_auto .little_slider .little_slider-item img {
-    width: 100%
+    width: 100%;
+    border-radius: .521vw .521vw 0 0;
 }
 
 .all_auto .little_slider .slick-list {
@@ -1715,7 +1716,8 @@ main {
 }
 
 .best-promo .little_slider .little_slider-item img {
-    width: 100%
+    width: 100%;
+    border-radius: .521vw .521vw 0 0;
 }
 
 .best-promo .little_slider .slick-list {
@@ -5648,7 +5650,7 @@ main {
 .popup-form.popup-for-trade-in .popup-content {
     width: 75vw;
     height: 43.542vw;
-    background: #fff;
+    background: #fff!important;
     border-radius: .521vw
 }
 
@@ -6758,7 +6760,8 @@ main {
     }
 
     .all_auto .little_slider .little_slider-item img {
-        width: 100%
+        width: 100%;
+        border-radius: 1.302vw 1.302vw 0 0;
     }
 
     .all_auto .little_slider .slick-list {
@@ -7283,7 +7286,8 @@ main {
     }
 
     .best-promo .little_slider .little_slider-item img {
-        width: 100%
+        width: 100%;
+        border-radius: 1.302vw 1.302vw 0 0;
     }
 
     .best-promo .little_slider .slick-list {
@@ -11858,7 +11862,8 @@ main {
         width: 100%;
         height: 100%;
         -o-object-fit: cover;
-        object-fit: cover
+        object-fit: cover;
+        border-radius: 2.666vw 2.666vw 0 0;
     }
 
     .all_auto .little_slider .slick-list {
@@ -12359,7 +12364,8 @@ main {
         width: 100%;
         height: 100%;
         -o-object-fit: cover;
-        object-fit: cover
+        object-fit: cover;
+        border-radius:2.666vw 2.666vw 0 0;
     }
 
     .best-promo .little_slider .slick-list {
@@ -16267,6 +16273,9 @@ main {
     .webp .header .header__top {
         background-image: url(../img/1200/TopLine1200.webp)
     }
+    .webp .slider {
+        background: linear-gradient(95.52deg, #440551 0.7%, #404267 55.29%, #3C7A80 99.34%, #3C7A80 99.34%);
+    }
 }
 
 @media only screen and (max-width:1200px) {
@@ -16303,6 +16312,9 @@ main {
 @media only screen and (max-width:600px) {
     .webp .slider .block_one {
         background-image: none
+    }
+    .webp .slider {
+        background: linear-gradient(95.52deg, #440551 0.7%, #404267 55.29%, #3C7A80 99.34%, #3C7A80 99.34%);
     }
 }
 
@@ -16516,7 +16528,8 @@ main {
 
 @media only screen and (max-width:1200px) {
     .webp .popup-form .popup-content {
-        background-image: url(../img/popapbg.webp)
+        background-image: none;
+        background: linear-gradient(95.52deg, #440551 0.7%, #404267 55.29%, #3C7A80 99.34%, #3C7A80 99.34%);
     }
 }
 
@@ -16543,7 +16556,13 @@ main {
         background-image: url(../img/tel-icon.webp)
     }
 }
+@media only screen and (max-width:600px) {
+    .webp .popup-form.popup-for-successful .popup-content {
+        background-image: none;
+        background: linear-gradient(95.52deg, #440551 0.7%, #404267 55.29%, #3C7A80 99.34%, #3C7A80 99.34%);
 
+    }
+}
 @media only screen and (max-width:600px) {
     .webp .header .menu-burger-icon {
         background-image: url(../img/600/burger600.webp)
